@@ -5,10 +5,10 @@
 
 package com.aditya.wp.aem.utils.vi.price.impl;
 
-import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
-import com.aditya.gmwp.aem.properties.PriceConfigProperties;
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
-import com.aditya.gmwp.aem.utils.vi.price.capi.PriceConfiguration;
+import com.aditya.wp.aem.properties.CompanyConfigProperties;
+import com.aditya.wp.aem.properties.PriceConfigProperties;
+import com.aditya.wp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.utils.vi.price.capi.PriceConfiguration;
 import com.day.cq.wcm.api.Page;
 
 

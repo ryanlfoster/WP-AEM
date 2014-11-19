@@ -15,13 +15,13 @@ import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.properties.BaseballcardCarlineProperties;
-import com.aditya.gmwp.aem.services.vehicledata.data.Carline;
-import com.aditya.gmwp.aem.services.vehicledata.data.CarlineBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
-import com.aditya.gmwp.aem.utils.GenericSortableMultiGridUtil;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.properties.BaseballcardCarlineProperties;
+import com.aditya.wp.aem.services.vehicledata.data.Carline;
+import com.aditya.wp.aem.services.vehicledata.data.CarlineBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.utils.GenericSortableMultiGridUtil;
+import com.aditya.wp.aem.wrapper.GMResource;
 import com.day.cq.wcm.api.Page;
 
 

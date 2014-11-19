@@ -8,9 +8,9 @@ package com.aditya.wp.aem.services.core.link.aspects.utils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.link.InPageLinkDecider;
-import com.aditya.gmwp.aem.utils.PageUtil;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.link.InPageLinkDecider;
+import com.aditya.wp.aem.utils.PageUtil;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 

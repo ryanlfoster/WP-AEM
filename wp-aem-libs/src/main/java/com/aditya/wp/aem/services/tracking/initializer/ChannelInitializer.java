@@ -9,9 +9,9 @@ import java.text.ParseException;
 
 import org.slf4j.Logger;
 
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
 import com.day.cq.wcm.api.Page;
 
 

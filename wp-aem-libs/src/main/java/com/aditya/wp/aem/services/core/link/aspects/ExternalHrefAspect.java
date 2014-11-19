@@ -11,15 +11,15 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.scripting.SlingBindings;
 
-import com.aditya.gmwp.aem.components.webwrapping.WebwrappingExternal;
-import com.aditya.gmwp.aem.model.ExternalLinkModel;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.LinkWriterAspect;
-import com.aditya.gmwp.aem.services.tracking.OmnitureService;
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
-import com.aditya.gmwp.aem.utils.WCMModeUtil;
-import com.aditya.gmwp.aem.utils.uri.UriBuilder;
+import com.aditya.wp.aem.components.webwrapping.WebwrappingExternal;
+import com.aditya.wp.aem.model.ExternalLinkModel;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.LinkWriterAspect;
+import com.aditya.wp.aem.services.tracking.OmnitureService;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.utils.WCMModeUtil;
+import com.aditya.wp.aem.utils.uri.UriBuilder;
 import com.day.cq.wcm.api.PageManager;
 
 

@@ -8,8 +8,8 @@ package com.aditya.wp.aem.utils.html;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
 
 
 /**

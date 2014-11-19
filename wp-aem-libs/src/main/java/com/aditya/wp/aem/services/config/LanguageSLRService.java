@@ -8,8 +8,8 @@ package com.aditya.wp.aem.services.config;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 
-import com.aditya.gmwp.aem.properties.LSLRComponentProperties;
-import com.aditya.gmwp.aem.properties.LSLRConfigProperties;
+import com.aditya.wp.aem.properties.LSLRComponentProperties;
+import com.aditya.wp.aem.properties.LSLRConfigProperties;
 import com.day.cq.wcm.api.Page;
 
 

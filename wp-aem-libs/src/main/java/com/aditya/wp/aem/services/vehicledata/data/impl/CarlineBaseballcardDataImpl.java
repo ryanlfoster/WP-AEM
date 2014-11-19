@@ -12,12 +12,12 @@ import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.api.wrappers.ValueMapDecorator;
 
-import com.aditya.gmwp.aem.model.ImageModel;
-import com.aditya.gmwp.aem.properties.BaseballcardCarlineProperties;
-import com.aditya.gmwp.aem.properties.Properties;
-import com.aditya.gmwp.aem.services.vehicledata.data.CarlineBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.utils.CarlineUtil;
-import com.aditya.gmwp.aem.utils.PageUtil;
+import com.aditya.wp.aem.model.ImageModel;
+import com.aditya.wp.aem.properties.BaseballcardCarlineProperties;
+import com.aditya.wp.aem.properties.Properties;
+import com.aditya.wp.aem.services.vehicledata.data.CarlineBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.utils.CarlineUtil;
+import com.aditya.wp.aem.utils.PageUtil;
 import com.day.cq.wcm.api.Page;
 
 

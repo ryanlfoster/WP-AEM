@@ -7,7 +7,7 @@ package com.aditya.wp.aem.services.core.link;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.model.LinkModel;
+import com.aditya.wp.aem.model.LinkModel;
 
 
 /**

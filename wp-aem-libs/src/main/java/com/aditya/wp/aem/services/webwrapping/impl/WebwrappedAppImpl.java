@@ -7,7 +7,7 @@ package com.aditya.wp.aem.services.webwrapping.impl;
 
 import java.util.List;
 import java.util.ArrayList;
-import com.aditya.gmwp.aem.services.webwrapping.WebwrappedApp;
+import com.aditya.wp.aem.services.webwrapping.WebwrappedApp;
 
 
 /**

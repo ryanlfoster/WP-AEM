@@ -9,19 +9,19 @@ import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.ConfigService;
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.core.LinkWriterService;
-import com.aditya.gmwp.aem.services.core.QueryService;
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
-import com.aditya.gmwp.aem.services.imports.ImageImportService;
-import com.aditya.gmwp.aem.services.sharing.RobotsCheckClientCacheService;
-import com.aditya.gmwp.aem.services.sharing.SharingService;
-import com.aditya.gmwp.aem.services.vehicledata.ColorsJSONService;
-import com.aditya.gmwp.aem.services.vehicledata.ItemAttributeService;
-import com.aditya.gmwp.aem.services.vehicledata.VehicleDataService;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.ConfigService;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.core.LinkWriterService;
+import com.aditya.wp.aem.services.core.QueryService;
+import com.aditya.wp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.services.imports.ImageImportService;
+import com.aditya.wp.aem.services.sharing.RobotsCheckClientCacheService;
+import com.aditya.wp.aem.services.sharing.SharingService;
+import com.aditya.wp.aem.services.vehicledata.ColorsJSONService;
+import com.aditya.wp.aem.services.vehicledata.ItemAttributeService;
+import com.aditya.wp.aem.services.vehicledata.VehicleDataService;
 
 /**
  * @author aditya.vennelakanti
@@ -69,7 +69,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getColorsJSONService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getColorsJSONService()
      */
     @Override
     public final ColorsJSONService getColorsJSONService() {
@@ -78,7 +78,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getCompanyService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getCompanyService()
      */
     @Override
     public final CompanyService getCompanyService() {
@@ -87,7 +87,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getConfigService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getConfigService()
      */
     @Override
     public final ConfigService getConfigService() {
@@ -96,7 +96,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getImageImportService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getImageImportService()
      */
     @Override
     public final ImageImportService getImageImportService() {
@@ -105,7 +105,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getItemAttributeService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getItemAttributeService()
      */
     @Override
     public final ItemAttributeService getItemAttributeService() {
@@ -114,7 +114,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getLanguageSLRService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getLanguageSLRService()
      */
     @Override
     public final LanguageSLRService getLanguageSLRService() {
@@ -123,7 +123,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getLevelService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getLevelService()
      */
     @Override
     public final LevelService getLevelService() {
@@ -132,7 +132,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getLinkWriterService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getLinkWriterService()
      */
     @Override
     public final LinkWriterService getLinkWriterService() {
@@ -141,7 +141,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getQueryService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getQueryService()
      */
     @Override
     public final QueryService getQueryService() {
@@ -150,7 +150,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getRobotsCheckClientCacheService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getRobotsCheckClientCacheService()
      */
     @Override
     public final RobotsCheckClientCacheService getRobotsCheckClientCacheService() {
@@ -159,7 +159,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getSharingService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getSharingService()
      */
     @Override
     public SharingService getSharingService() {
@@ -168,7 +168,7 @@ public class ServiceProviderImpl implements ServiceProvider {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.core.ServiceProvider#getVehicleDataService()
+     * @see com.aditya.wp.aem.services.core.ServiceProvider#getVehicleDataService()
      */
     @Override
     public final VehicleDataService getVehicleDataService() {

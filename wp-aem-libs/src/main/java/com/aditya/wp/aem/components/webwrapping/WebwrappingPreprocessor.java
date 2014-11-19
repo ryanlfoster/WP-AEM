@@ -8,10 +8,10 @@ package com.aditya.wp.aem.components.webwrapping;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.components.AbstractComponent;
-import com.aditya.gmwp.aem.global.GmdsRequestAttribute;
-import com.aditya.gmwp.aem.services.webwrapping.WebwrappingService;
-import com.aditya.gmwp.aem.wrapper.DeepResolvingResourceUtil;
+import com.aditya.wp.aem.components.AbstractComponent;
+import com.aditya.wp.aem.global.GmdsRequestAttribute;
+import com.aditya.wp.aem.services.webwrapping.WebwrappingService;
+import com.aditya.wp.aem.wrapper.DeepResolvingResourceUtil;
 
 
 /**

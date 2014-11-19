@@ -18,11 +18,11 @@ import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.Attribute;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
-import com.aditya.gmwp.aem.services.vehicledata.data.Carline;
-import com.aditya.gmwp.aem.services.vehicledata.data.MarketSegment;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.services.vehicledata.data.Attribute;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.services.vehicledata.data.Carline;
+import com.aditya.wp.aem.services.vehicledata.data.MarketSegment;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
 
 
 /**

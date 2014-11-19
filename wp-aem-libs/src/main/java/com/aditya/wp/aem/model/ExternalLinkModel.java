@@ -12,8 +12,8 @@ import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.utils.StringUtil;
-import com.aditya.gmwp.aem.wrapper.DeepResolvingResourceUtil;
+import com.aditya.wp.aem.utils.StringUtil;
+import com.aditya.wp.aem.wrapper.DeepResolvingResourceUtil;
 
 
 /**

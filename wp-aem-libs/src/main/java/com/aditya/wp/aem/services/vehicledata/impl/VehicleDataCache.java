@@ -21,8 +21,8 @@ import javax.jcr.Session;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
-import com.aditya.gmwp.aem.utils.PersistentCacheUtil;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.utils.PersistentCacheUtil;
 
 
 /**

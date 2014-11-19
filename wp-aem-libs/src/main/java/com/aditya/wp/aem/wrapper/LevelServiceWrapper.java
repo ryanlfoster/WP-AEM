@@ -11,7 +11,7 @@ import org.apache.sling.api.resource.ResourceResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.config.LevelService;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 

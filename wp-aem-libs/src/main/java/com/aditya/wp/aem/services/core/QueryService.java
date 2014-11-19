@@ -7,8 +7,8 @@ package com.aditya.wp.aem.services.core;
 
 import java.util.List;
 
-import com.aditya.gmwp.aem.wrapper.GMResource;
-import com.aditya.gmwp.aem.wrapper.LevelServiceWrapper;
+import com.aditya.wp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.wrapper.LevelServiceWrapper;
 
 
 /**

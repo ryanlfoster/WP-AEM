@@ -5,7 +5,7 @@
 
 package com.aditya.wp.aem.components.sightly;
 
-import com.aditya.gmwp.aem.services.tracking.TestAndTargetService;
+import com.aditya.wp.aem.services.tracking.TestAndTargetService;
 import com.adobe.cq.sightly.WCMUse;
 
 /**

@@ -20,10 +20,10 @@ import org.apache.sling.commons.scheduler.Scheduler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.contentmigration.Job;
-import com.aditya.gmwp.aem.services.contentmigration.JobMetadata;
-import com.aditya.gmwp.aem.services.contentmigration.SystemInfo;
-import com.aditya.gmwp.aem.services.contentmigration.utils.JobTokenUtil;
+import com.aditya.wp.aem.services.contentmigration.Job;
+import com.aditya.wp.aem.services.contentmigration.JobMetadata;
+import com.aditya.wp.aem.services.contentmigration.SystemInfo;
+import com.aditya.wp.aem.services.contentmigration.utils.JobTokenUtil;
 
 
 /**

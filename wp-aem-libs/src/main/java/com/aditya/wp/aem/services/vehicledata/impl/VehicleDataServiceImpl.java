@@ -47,39 +47,39 @@ import org.apache.sling.commons.osgi.PropertiesUtil;
 import org.apache.sling.commons.scheduler.ScheduleOptions;
 import org.apache.sling.commons.scheduler.Scheduler;
 
-import com.aditya.gmwp.aem.exception.VehicleDataException;
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.global.GmdsRequestAttribute;
-import com.aditya.gmwp.aem.global.LegalPriceContext;
-import com.aditya.gmwp.aem.properties.BaseballcardBodystyleProperties;
-import com.aditya.gmwp.aem.properties.BaseballcardCarlineProperties;
-import com.aditya.gmwp.aem.properties.ConfigProperties;
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.ConfigService;
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.JcrService;
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
-import com.aditya.gmwp.aem.services.vehicledata.VehicleDataService;
-import com.aditya.gmwp.aem.services.vehicledata.data.Bodystyle;
-import com.aditya.gmwp.aem.services.vehicledata.data.BodystyleBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
-import com.aditya.gmwp.aem.services.vehicledata.data.Carline;
-import com.aditya.gmwp.aem.services.vehicledata.data.CarlineBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.ConfigurationBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.Series;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.BodystyleBaseballcardDataImpl;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.CarlineBaseballcardDataImpl;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.ConfigurationBaseballcardDataImpl;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.VehicleDataImpl;
-import com.aditya.gmwp.aem.utils.StringUtil;
-import com.aditya.gmwp.aem.utils.ddp.DdpSsiStatement;
-import com.aditya.gmwp.aem.utils.vi.VehiclePriceInformation;
-import com.aditya.gmwp.aem.utils.vi.price.PriceConfigurationFactory;
-import com.aditya.gmwp.aem.utils.vi.price.capi.PriceConfiguration;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.exception.VehicleDataException;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.global.GmdsRequestAttribute;
+import com.aditya.wp.aem.global.LegalPriceContext;
+import com.aditya.wp.aem.properties.BaseballcardBodystyleProperties;
+import com.aditya.wp.aem.properties.BaseballcardCarlineProperties;
+import com.aditya.wp.aem.properties.ConfigProperties;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.ConfigService;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.JcrService;
+import com.aditya.wp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.services.vehicledata.VehicleDataService;
+import com.aditya.wp.aem.services.vehicledata.data.Bodystyle;
+import com.aditya.wp.aem.services.vehicledata.data.BodystyleBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.services.vehicledata.data.Carline;
+import com.aditya.wp.aem.services.vehicledata.data.CarlineBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.ConfigurationBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.Series;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.services.vehicledata.data.impl.BodystyleBaseballcardDataImpl;
+import com.aditya.wp.aem.services.vehicledata.data.impl.CarlineBaseballcardDataImpl;
+import com.aditya.wp.aem.services.vehicledata.data.impl.ConfigurationBaseballcardDataImpl;
+import com.aditya.wp.aem.services.vehicledata.data.impl.VehicleDataImpl;
+import com.aditya.wp.aem.utils.StringUtil;
+import com.aditya.wp.aem.utils.ddp.DdpSsiStatement;
+import com.aditya.wp.aem.utils.vi.VehiclePriceInformation;
+import com.aditya.wp.aem.utils.vi.price.PriceConfigurationFactory;
+import com.aditya.wp.aem.utils.vi.price.capi.PriceConfiguration;
+import com.aditya.wp.aem.wrapper.GMResource;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.wcm.api.NameConstants;
 import com.day.cq.wcm.api.Page;
@@ -93,7 +93,7 @@ import com.day.text.Text;
  *
  */
 @Service(value = VehicleDataService.class)
-@Component(metatype = true, immediate = true, name = "com.aditya.gmwp.aem.services.vehicledata.VehicleDataService", label="GMWP Vehicle Data Service", description = "%vehicledataservice.description")
+@Component(metatype = true, immediate = true, name = "com.aditya.wp.aem.services.vehicledata.VehicleDataService", label="GMWP Vehicle Data Service", description = "%vehicledataservice.description")
 public class VehicleDataServiceImpl extends AbstractService<VehicleDataServiceImpl> implements VehicleDataService {
 
     private static final String LOAD_ATTRIBUTES = "loadAttributes";

@@ -5,7 +5,7 @@
 
 package com.aditya.wp.aem.services.contentmigration.impl;
 
-import com.aditya.gmwp.aem.services.contentmigration.SystemInfo;
+import com.aditya.wp.aem.services.contentmigration.SystemInfo;
 
 
 /**

@@ -17,7 +17,7 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.exception.InvalidIdException;
+import com.aditya.wp.aem.exception.InvalidIdException;
 
 
 /**

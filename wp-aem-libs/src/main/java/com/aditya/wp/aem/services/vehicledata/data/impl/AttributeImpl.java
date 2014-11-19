@@ -7,7 +7,7 @@ package com.aditya.wp.aem.services.vehicledata.data.impl;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.Attribute;
+import com.aditya.wp.aem.services.vehicledata.data.Attribute;
 
 
 /**

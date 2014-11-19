@@ -7,9 +7,9 @@ package com.aditya.wp.aem.model;
 
 import java.util.Map;
 
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
-import com.aditya.gmwp.aem.utils.tracking.LinkType;
-import com.aditya.gmwp.aem.utils.tracking.OmnitureJSBuilder;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.utils.tracking.LinkType;
+import com.aditya.wp.aem.utils.tracking.OmnitureJSBuilder;
 
 
 /**

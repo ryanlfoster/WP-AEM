@@ -11,8 +11,8 @@ import javax.jcr.RepositoryException;
 
 import org.apache.sling.api.resource.ResourceResolver;
 
-import com.aditya.gmwp.aem.global.ShoppingLinkContext;
-import com.aditya.gmwp.aem.model.ShoppingLinkModel;
+import com.aditya.wp.aem.global.ShoppingLinkContext;
+import com.aditya.wp.aem.model.ShoppingLinkModel;
 
 
 /**

@@ -11,7 +11,7 @@ import java.util.Map;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.exception.DBCException;
+import com.aditya.wp.aem.exception.DBCException;
 
 
 /**

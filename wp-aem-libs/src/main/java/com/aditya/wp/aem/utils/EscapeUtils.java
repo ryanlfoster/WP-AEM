@@ -12,7 +12,7 @@ import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.utils.html.RichTextUtil;
+import com.aditya.wp.aem.utils.html.RichTextUtil;
 
 
 /**

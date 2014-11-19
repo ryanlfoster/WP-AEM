@@ -22,14 +22,14 @@ import org.apache.sling.commons.osgi.PropertiesUtil;
 import org.apache.sling.commons.scheduler.ScheduleOptions;
 import org.apache.sling.commons.scheduler.Scheduler;
 
-import com.aditya.gmwp.aem.services.baseballcard.BaseballcardInfoService;
-import com.aditya.gmwp.aem.services.baseballcard.model.BaseballcardInfoModel;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.JcrService;
-import com.aditya.gmwp.aem.services.core.QueryService;
-import com.aditya.gmwp.aem.utils.PersistentCacheUtil;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.services.baseballcard.BaseballcardInfoService;
+import com.aditya.wp.aem.services.baseballcard.model.BaseballcardInfoModel;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.JcrService;
+import com.aditya.wp.aem.services.core.QueryService;
+import com.aditya.wp.aem.utils.PersistentCacheUtil;
+import com.aditya.wp.aem.wrapper.GMResource;
 import com.day.cq.wcm.api.Page;
 
 
@@ -39,7 +39,7 @@ import com.day.cq.wcm.api.Page;
  *
  */
 @Service(value = BaseballcardInfoService.class)
-@Component(immediate=true, enabled=true, label="com.aditya.gmwp.aem.services.baseballcard.BaseballcardInfoService", description="%baseballcardinfoservice.description", name="com.aditya.gmwp.aem.services.baseballcard.BaseballcardInfoService", metatype=true)
+@Component(immediate=true, enabled=true, label="com.aditya.wp.aem.services.baseballcard.BaseballcardInfoService", description="%baseballcardinfoservice.description", name="com.aditya.wp.aem.services.baseballcard.BaseballcardInfoService", metatype=true)
 public class BaseballcardInfoServiceImpl extends AbstractService<BaseballcardInfoServiceImpl> implements BaseballcardInfoService {
 
 	private final class UpdateJob implements Runnable {
@@ -127,7 +127,7 @@ public class BaseballcardInfoServiceImpl extends AbstractService<BaseballcardInf
     }
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.CacheService#run()
+	 * @see com.aditya.wp.aem.services.core.CacheService#run()
 	 */
 	@Override
 	public void run() {
@@ -136,7 +136,7 @@ public class BaseballcardInfoServiceImpl extends AbstractService<BaseballcardInf
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.CacheService#flushCache()
+	 * @see com.aditya.wp.aem.services.core.CacheService#flushCache()
 	 */
 	@Override
 	public void flushCache() {
@@ -144,7 +144,7 @@ public class BaseballcardInfoServiceImpl extends AbstractService<BaseballcardInf
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.baseballcard.BaseballCardInfoService#getBaseballcardData(com.day.cq.wcm.api.Page)
+	 * @see com.aditya.wp.aem.services.baseballcard.BaseballCardInfoService#getBaseballcardData(com.day.cq.wcm.api.Page)
 	 */
 	@Override
 	public BaseballcardInfoModel getBaseballcardData(final Page currentPage) {
@@ -152,7 +152,7 @@ public class BaseballcardInfoServiceImpl extends AbstractService<BaseballcardInf
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.baseballcard.BaseballCardInfoService#getBaseballcardResource(com.day.cq.wcm.api.Page, java.lang.String)
+	 * @see com.aditya.wp.aem.services.baseballcard.BaseballCardInfoService#getBaseballcardResource(com.day.cq.wcm.api.Page, java.lang.String)
 	 */
 	@Override
 	public Set<String> getBaseballcardResource(final Page currentPage,

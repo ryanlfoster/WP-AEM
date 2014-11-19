@@ -17,10 +17,10 @@ import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.services.config.DomainPathService;
-import com.aditya.gmwp.aem.services.config.model.Country;
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.JcrService;
+import com.aditya.wp.aem.services.config.DomainPathService;
+import com.aditya.wp.aem.services.config.model.Country;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.JcrService;
 
 
 /**
@@ -29,7 +29,7 @@ import com.aditya.gmwp.aem.services.core.JcrService;
  *
  */
 @Service
-@Component(name = "com.aditya.gmwp.aem.services.config.DomainPathService", label="GMWP Domain Path Service", metatype = true)
+@Component(name = "com.aditya.wp.aem.services.config.DomainPathService", label="GMWP Domain Path Service", metatype = true)
 public class DomainPathServiceImpl extends AbstractService<DomainPathServiceImpl> implements DomainPathService {
 
 	@Reference

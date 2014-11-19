@@ -13,19 +13,19 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.scripting.SlingBindings;
 
-import com.aditya.gmwp.aem.components.webwrapping.WebwrappingExternal;
-import com.aditya.gmwp.aem.global.GmdsRequestAttribute;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.model.OmnitureLinkTrackingData;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.LinkWriterAspect;
-import com.aditya.gmwp.aem.services.tracking.OmnitureService;
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
-import com.aditya.gmwp.aem.services.tracking.model.TrackingModel;
-import com.aditya.gmwp.aem.utils.WCMModeUtil;
-import com.aditya.gmwp.aem.utils.html.HtmlFilterType;
-import com.aditya.gmwp.aem.utils.html.HtmlUtil;
-import com.aditya.gmwp.aem.utils.tracking.LinkType;
+import com.aditya.wp.aem.components.webwrapping.WebwrappingExternal;
+import com.aditya.wp.aem.global.GmdsRequestAttribute;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.model.OmnitureLinkTrackingData;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.LinkWriterAspect;
+import com.aditya.wp.aem.services.tracking.OmnitureService;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.tracking.model.TrackingModel;
+import com.aditya.wp.aem.utils.WCMModeUtil;
+import com.aditya.wp.aem.utils.html.HtmlFilterType;
+import com.aditya.wp.aem.utils.html.HtmlUtil;
+import com.aditya.wp.aem.utils.tracking.LinkType;
 import com.day.cq.wcm.api.PageManager;
 
 /**

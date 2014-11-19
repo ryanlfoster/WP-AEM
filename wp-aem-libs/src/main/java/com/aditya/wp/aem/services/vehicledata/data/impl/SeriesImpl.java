@@ -12,8 +12,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.Attribute;
-import com.aditya.gmwp.aem.services.vehicledata.data.Series;
+import com.aditya.wp.aem.services.vehicledata.data.Attribute;
+import com.aditya.wp.aem.services.vehicledata.data.Series;
 
 
 /**

@@ -5,8 +5,8 @@
 
 package com.aditya.wp.aem.services.vehicledata.data;
 
-import com.aditya.gmwp.aem.model.ImageModel;
-import com.aditya.gmwp.aem.properties.Properties;
+import com.aditya.wp.aem.model.ImageModel;
+import com.aditya.wp.aem.properties.Properties;
 
 
 /**

@@ -10,7 +10,7 @@ import java.util.Map;
 import org.apache.commons.lang.StringUtils;
 import org.apache.jackrabbit.oak.commons.json.JsonObject;
 
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
 
 
 /**

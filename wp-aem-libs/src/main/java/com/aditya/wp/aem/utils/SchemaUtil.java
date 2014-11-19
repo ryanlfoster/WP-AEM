@@ -9,10 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.lang.BooleanUtils;
 
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.properties.LanguageConfigProperties;
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.properties.LanguageConfigProperties;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.services.core.ServiceProvider;
 import com.day.cq.wcm.api.Page;
 
 

@@ -11,9 +11,9 @@ import javax.jcr.RepositoryException;
 
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
-import com.aditya.gmwp.aem.properties.CompanyConfigResourcePath;
-import com.aditya.gmwp.aem.services.vehicledata.data.ShoppingLink;
+import com.aditya.wp.aem.properties.CompanyConfigProperties;
+import com.aditya.wp.aem.properties.CompanyConfigResourcePath;
+import com.aditya.wp.aem.services.vehicledata.data.ShoppingLink;
 import com.day.cq.wcm.api.Page;
 
 

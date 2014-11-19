@@ -9,7 +9,7 @@ import java.util.SortedMap;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.utils.html.LinkBehavior;
+import com.aditya.wp.aem.utils.html.LinkBehavior;
 import com.day.cq.wcm.api.Page;
 
 

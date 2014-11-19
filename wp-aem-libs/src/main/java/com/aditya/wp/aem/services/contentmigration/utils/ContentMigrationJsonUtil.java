@@ -18,10 +18,10 @@ import org.apache.sling.commons.json.JSONArray;
 import org.apache.sling.commons.json.JSONException;
 import org.apache.sling.commons.json.JSONObject;
 
-import com.aditya.gmwp.aem.services.contentmigration.Job;
-import com.aditya.gmwp.aem.services.contentmigration.JobMetadata;
-import com.aditya.gmwp.aem.services.contentmigration.SystemInfo;
-import com.aditya.gmwp.aem.services.contentmigration.impl.JobMetadataImpl;
+import com.aditya.wp.aem.services.contentmigration.Job;
+import com.aditya.wp.aem.services.contentmigration.JobMetadata;
+import com.aditya.wp.aem.services.contentmigration.SystemInfo;
+import com.aditya.wp.aem.services.contentmigration.impl.JobMetadataImpl;
 
 
 /**

@@ -11,9 +11,9 @@ import java.util.Map;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.utils.html.HtmlEntities;
-import com.aditya.gmwp.aem.utils.html.HtmlFilterType;
-import com.aditya.gmwp.aem.utils.html.HtmlUtil;
+import com.aditya.wp.aem.utils.html.HtmlEntities;
+import com.aditya.wp.aem.utils.html.HtmlFilterType;
+import com.aditya.wp.aem.utils.html.HtmlUtil;
 
 
 /**

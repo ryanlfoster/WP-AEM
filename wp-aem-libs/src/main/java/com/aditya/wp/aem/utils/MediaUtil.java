@@ -14,7 +14,7 @@ import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.wrapper.DeepResolvingResourceUtil;
+import com.aditya.wp.aem.wrapper.DeepResolvingResourceUtil;
 
 
 /**

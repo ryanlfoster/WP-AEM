@@ -23,12 +23,12 @@ import org.apache.sling.api.resource.ResourceUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariableContainer;
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
-import com.aditya.gmwp.aem.services.tracking.data.TrackingData;
-import com.aditya.gmwp.aem.services.tracking.model.TrackingModel;
-import com.aditya.gmwp.aem.utils.html.HtmlFilterType;
-import com.aditya.gmwp.aem.utils.html.HtmlUtil;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariableContainer;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.tracking.data.TrackingData;
+import com.aditya.wp.aem.services.tracking.model.TrackingModel;
+import com.aditya.wp.aem.utils.html.HtmlFilterType;
+import com.aditya.wp.aem.utils.html.HtmlUtil;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.wcm.api.Page;
 

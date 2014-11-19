@@ -17,7 +17,7 @@ import org.apache.sling.commons.threads.ModifiableThreadPoolConfig;
 import org.apache.sling.commons.threads.ThreadPool;
 import org.apache.sling.commons.threads.ThreadPoolManager;
 
-import com.aditya.gmwp.aem.services.batchjob.BatchJobExecuter;
+import com.aditya.wp.aem.services.batchjob.BatchJobExecuter;
 
 
 /**
@@ -54,7 +54,7 @@ public class BatchJobExecutorImpl implements BatchJobExecuter {
     }
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.batchjob.BatchJobExecuter#execute(java.util.List)
+	 * @see com.aditya.wp.aem.services.batchjob.BatchJobExecuter#execute(java.util.List)
 	 */
 	@Override
 	public void execute(List<Runnable> jobs) {
@@ -64,7 +64,7 @@ public class BatchJobExecutorImpl implements BatchJobExecuter {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.batchjob.BatchJobExecuter#execute(java.lang.Runnable[])
+	 * @see com.aditya.wp.aem.services.batchjob.BatchJobExecuter#execute(java.lang.Runnable[])
 	 */
 	@Override
 	public void execute(Runnable... jobs) {

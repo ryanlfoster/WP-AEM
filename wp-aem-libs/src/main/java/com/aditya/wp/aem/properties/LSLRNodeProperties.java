@@ -41,7 +41,7 @@ public enum LSLRNodeProperties implements Properties {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.properties.Properties#getPropertyName()
+     * @see com.aditya.wp.aem.properties.Properties#getPropertyName()
      */
 	@Override
     public String getPropertyName() {

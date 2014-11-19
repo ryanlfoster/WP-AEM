@@ -12,14 +12,14 @@ import javax.jcr.RepositoryException;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.global.ShoppingLinkContext;
-import com.aditya.gmwp.aem.model.ShoppingLinkModel;
-import com.aditya.gmwp.aem.properties.BaseballcardConfigurationProperties;
-import com.aditya.gmwp.aem.properties.Properties;
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.services.vehicledata.data.BodystyleBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.ConfigurationBaseballcardData;
+import com.aditya.wp.aem.global.ShoppingLinkContext;
+import com.aditya.wp.aem.model.ShoppingLinkModel;
+import com.aditya.wp.aem.properties.BaseballcardConfigurationProperties;
+import com.aditya.wp.aem.properties.Properties;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.services.vehicledata.data.BodystyleBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.ConfigurationBaseballcardData;
 import com.day.cq.wcm.api.Page;
 
 

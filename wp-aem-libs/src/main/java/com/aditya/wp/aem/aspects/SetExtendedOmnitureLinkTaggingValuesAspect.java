@@ -7,8 +7,8 @@ package com.aditya.wp.aem.aspects;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.components.AbstractComponent;
-import com.aditya.gmwp.aem.components.ComponentAspect;
+import com.aditya.wp.aem.components.AbstractComponent;
+import com.aditya.wp.aem.components.ComponentAspect;
 import com.day.cq.wcm.api.Page;
 
 
@@ -20,7 +20,7 @@ import com.day.cq.wcm.api.Page;
 public class SetExtendedOmnitureLinkTaggingValuesAspect implements ComponentAspect {
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.ComponentAspect#applyAspect()
+	 * @see com.aditya.wp.aem.components.ComponentAspect#applyAspect()
 	 */
 	@Override
 	public void applyAspect() {
@@ -29,7 +29,7 @@ public class SetExtendedOmnitureLinkTaggingValuesAspect implements ComponentAspe
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.ComponentAspect#init(org.apache.sling.api.SlingHttpServletRequest, com.day.cq.wcm.api.Page, com.aditya.gmwp.aem.components.AbstractComponent)
+	 * @see com.aditya.wp.aem.components.ComponentAspect#init(org.apache.sling.api.SlingHttpServletRequest, com.day.cq.wcm.api.Page, com.aditya.wp.aem.components.AbstractComponent)
 	 */
 	@Override
 	public void init(SlingHttpServletRequest slingRequest,

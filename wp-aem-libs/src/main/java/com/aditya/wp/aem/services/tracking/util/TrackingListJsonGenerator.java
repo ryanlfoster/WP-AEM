@@ -7,7 +7,7 @@ package com.aditya.wp.aem.services.tracking.util;
 
 import java.util.List;
 
-import com.aditya.gmwp.aem.services.tracking.data.TrackingData;
+import com.aditya.wp.aem.services.tracking.data.TrackingData;
 
 
 /**

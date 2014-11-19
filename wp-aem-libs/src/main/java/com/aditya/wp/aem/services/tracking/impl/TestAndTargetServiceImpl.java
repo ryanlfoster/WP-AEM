@@ -16,11 +16,11 @@ import org.apache.sling.api.resource.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.ConfigService;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.tracking.TestAndTargetService;
+import com.aditya.wp.aem.properties.CompanyConfigProperties;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.ConfigService;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.tracking.TestAndTargetService;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.wcm.api.Page;
 
@@ -31,7 +31,7 @@ import com.day.cq.wcm.api.Page;
  *
  */
 @Service(TestAndTargetService.class)
-@Component(name = "com.aditya.gmwp.aem.services.tracking.TestAndTargetService")
+@Component(name = "com.aditya.wp.aem.services.tracking.TestAndTargetService")
 public class TestAndTargetServiceImpl implements TestAndTargetService {
 
 	private static final Logger LOG = LoggerFactory.getLogger(TestAndTargetServiceImpl.class);
@@ -62,7 +62,7 @@ public class TestAndTargetServiceImpl implements TestAndTargetService {
 	@Reference
 	private transient final LevelService levelService = null;
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.tracking.TestAndTargetService#isEnabled(com.day.cq.wcm.api.Page)
+	 * @see com.aditya.wp.aem.services.tracking.TestAndTargetService#isEnabled(com.day.cq.wcm.api.Page)
 	 */
 	@Override
 	public boolean isEnabled(Page currentPage) {
@@ -78,7 +78,7 @@ public class TestAndTargetServiceImpl implements TestAndTargetService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.tracking.TestAndTargetService#isGlobalMboxEnabled(com.day.cq.wcm.api.Page)
+	 * @see com.aditya.wp.aem.services.tracking.TestAndTargetService#isGlobalMboxEnabled(com.day.cq.wcm.api.Page)
 	 */
 	@Override
 	public boolean isGlobalMboxEnabled(Page currentPage) {
@@ -87,7 +87,7 @@ public class TestAndTargetServiceImpl implements TestAndTargetService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.tracking.TestAndTargetService#getGlobalMboxJSPath(com.day.cq.wcm.api.Page)
+	 * @see com.aditya.wp.aem.services.tracking.TestAndTargetService#getGlobalMboxJSPath(com.day.cq.wcm.api.Page)
 	 */
 	@Override
 	public String getGlobalMboxJSPath(Page currentPage) {
@@ -98,7 +98,7 @@ public class TestAndTargetServiceImpl implements TestAndTargetService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.tracking.TestAndTargetService#getGlobalMboxCode(com.day.cq.wcm.api.Page)
+	 * @see com.aditya.wp.aem.services.tracking.TestAndTargetService#getGlobalMboxCode(com.day.cq.wcm.api.Page)
 	 */
 	@Override
 	public String getGlobalMboxCode(Page currentPage) {
@@ -106,7 +106,7 @@ public class TestAndTargetServiceImpl implements TestAndTargetService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.tracking.TestAndTargetService#getEscapedGlobalMboxCode(com.day.cq.wcm.api.Page)
+	 * @see com.aditya.wp.aem.services.tracking.TestAndTargetService#getEscapedGlobalMboxCode(com.day.cq.wcm.api.Page)
 	 */
 	@Override
 	public String getEscapedGlobalMboxCode(Page currentPage) {
@@ -114,7 +114,7 @@ public class TestAndTargetServiceImpl implements TestAndTargetService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.tracking.TestAndTargetService#isSiteCatalystPluginEnabled(com.day.cq.wcm.api.Page)
+	 * @see com.aditya.wp.aem.services.tracking.TestAndTargetService#isSiteCatalystPluginEnabled(com.day.cq.wcm.api.Page)
 	 */
 	@Override
 	public boolean isSiteCatalystPluginEnabled(Page currentPage) {

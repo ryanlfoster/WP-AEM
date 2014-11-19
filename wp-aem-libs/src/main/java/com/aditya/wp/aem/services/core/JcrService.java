@@ -9,7 +9,7 @@ import javax.jcr.Session;
 
 import org.apache.sling.api.resource.ResourceResolver;
 
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.wrapper.GMResource;
 import com.day.cq.wcm.api.PageManager;
 
 

@@ -15,9 +15,9 @@ import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ResourceResolverFactory;
 
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.JcrService;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.JcrService;
+import com.aditya.wp.aem.wrapper.GMResource;
 import com.day.cq.wcm.api.PageManager;
 
 
@@ -53,7 +53,7 @@ public class JcrServiceImpl extends AbstractService<JcrServiceImpl> implements J
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.JcrService#getAdminSession()
+	 * @see com.aditya.wp.aem.services.core.JcrService#getAdminSession()
 	 */
 	@Override
     public Session getAdminSession() {
@@ -62,7 +62,7 @@ public class JcrServiceImpl extends AbstractService<JcrServiceImpl> implements J
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.JcrService#getResourceResolver()
+	 * @see com.aditya.wp.aem.services.core.JcrService#getResourceResolver()
 	 */
 	@Override
     public ResourceResolver getResourceResolver() {
@@ -71,7 +71,7 @@ public class JcrServiceImpl extends AbstractService<JcrServiceImpl> implements J
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.JcrService#getGMResource(java.lang.String)
+	 * @see com.aditya.wp.aem.services.core.JcrService#getGMResource(java.lang.String)
 	 */
 	@Override
     public GMResource getGMResource(String path) {
@@ -84,7 +84,7 @@ public class JcrServiceImpl extends AbstractService<JcrServiceImpl> implements J
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.JcrService#getPageManager()
+	 * @see com.aditya.wp.aem.services.core.JcrService#getPageManager()
 	 */
 	@Override
     public PageManager getPageManager() {

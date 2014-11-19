@@ -12,8 +12,8 @@ import javax.jcr.Session;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.jsp.JspException;
 
-import com.aditya.gmwp.aem.properties.ConfigProperties;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.properties.ConfigProperties;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
 import com.day.cq.wcm.api.Page;
 
 

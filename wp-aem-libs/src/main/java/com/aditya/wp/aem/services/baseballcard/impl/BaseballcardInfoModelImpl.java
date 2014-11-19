@@ -14,15 +14,15 @@ import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.properties.BaseballcardBodystyleProperties;
-import com.aditya.gmwp.aem.properties.BaseballcardCarlineProperties;
-import com.aditya.gmwp.aem.properties.BaseballcardConfigurationProperties;
-import com.aditya.gmwp.aem.services.baseballcard.model.BaseballcardInfoItem;
-import com.aditya.gmwp.aem.services.baseballcard.model.BaseballcardInfoModel;
-import com.aditya.gmwp.aem.services.core.QueryService;
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.properties.BaseballcardBodystyleProperties;
+import com.aditya.wp.aem.properties.BaseballcardCarlineProperties;
+import com.aditya.wp.aem.properties.BaseballcardConfigurationProperties;
+import com.aditya.wp.aem.services.baseballcard.model.BaseballcardInfoItem;
+import com.aditya.wp.aem.services.baseballcard.model.BaseballcardInfoModel;
+import com.aditya.wp.aem.services.core.QueryService;
+import com.aditya.wp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.wrapper.GMResource;
 import com.day.cq.wcm.api.Page;
 
 

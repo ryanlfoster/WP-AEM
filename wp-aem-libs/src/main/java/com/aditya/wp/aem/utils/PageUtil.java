@@ -21,10 +21,10 @@ import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.model.LinkModelConstants;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.model.LinkModelConstants;
+import com.aditya.wp.aem.wrapper.GMResource;
 import com.day.cq.wcm.api.Page;
 
 

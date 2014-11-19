@@ -8,11 +8,11 @@ package com.aditya.wp.aem.services.core.link.aspects;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.model.DisclaimerModel;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.InPageLinkDecider;
-import com.aditya.gmwp.aem.services.core.link.LinkWriterAspect;
+import com.aditya.wp.aem.model.DisclaimerModel;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.InPageLinkDecider;
+import com.aditya.wp.aem.services.core.link.LinkWriterAspect;
 
 
 /**

@@ -12,16 +12,16 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
-import com.aditya.gmwp.aem.model.DisclaimerModel;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
-import com.aditya.gmwp.aem.properties.LanguageConfigProperties;
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.services.config.LinkBehaviorService;
-import com.aditya.gmwp.aem.services.core.LinkWriterService;
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.model.DisclaimerModel;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.properties.CompanyConfigProperties;
+import com.aditya.wp.aem.properties.LanguageConfigProperties;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.services.config.LinkBehaviorService;
+import com.aditya.wp.aem.services.core.LinkWriterService;
+import com.aditya.wp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
 import com.day.cq.wcm.api.Page;
 
 

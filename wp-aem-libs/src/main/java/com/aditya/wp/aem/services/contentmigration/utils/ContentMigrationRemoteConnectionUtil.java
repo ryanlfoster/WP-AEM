@@ -26,11 +26,11 @@ import org.apache.sling.commons.json.JSONException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.contentmigration.Job;
-import com.aditya.gmwp.aem.services.contentmigration.JobMetadata;
-import com.aditya.gmwp.aem.services.contentmigration.SystemInfo;
-import com.aditya.gmwp.aem.services.contentmigration.impl.RemoteSystemInfoImpl;
-import com.aditya.gmwp.aem.utils.EncodeDecodeUtil;
+import com.aditya.wp.aem.services.contentmigration.Job;
+import com.aditya.wp.aem.services.contentmigration.JobMetadata;
+import com.aditya.wp.aem.services.contentmigration.SystemInfo;
+import com.aditya.wp.aem.services.contentmigration.impl.RemoteSystemInfoImpl;
+import com.aditya.wp.aem.utils.EncodeDecodeUtil;
 import com.day.cq.analytics.sitecatalyst.util.HttpClientUtils;
 
 

@@ -16,16 +16,16 @@ import org.osgi.framework.BundleContext;
 import org.osgi.framework.FrameworkUtil;
 import org.osgi.framework.ServiceReference;
 
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.ConfigService;
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.imports.ImageImportService;
-import com.aditya.gmwp.aem.services.sharing.RobotsCheckClientCacheService;
-import com.aditya.gmwp.aem.services.sharing.SharingService;
-import com.aditya.gmwp.aem.services.vehicledata.ColorsJSONService;
-import com.aditya.gmwp.aem.services.vehicledata.ItemAttributeService;
-import com.aditya.gmwp.aem.services.vehicledata.VehicleDataService;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.ConfigService;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.imports.ImageImportService;
+import com.aditya.wp.aem.services.sharing.RobotsCheckClientCacheService;
+import com.aditya.wp.aem.services.sharing.SharingService;
+import com.aditya.wp.aem.services.vehicledata.ColorsJSONService;
+import com.aditya.wp.aem.services.vehicledata.ItemAttributeService;
+import com.aditya.wp.aem.services.vehicledata.VehicleDataService;
 
 
 /**

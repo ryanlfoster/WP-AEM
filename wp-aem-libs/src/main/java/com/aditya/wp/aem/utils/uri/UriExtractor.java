@@ -17,7 +17,7 @@ import java.util.Set;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.utils.EncodeDecodeUtil;
+import com.aditya.wp.aem.utils.EncodeDecodeUtil;
 
 
 /**

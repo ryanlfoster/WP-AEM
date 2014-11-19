@@ -7,7 +7,7 @@ package com.aditya.wp.aem.services.config;
 
 import java.util.Set;
 
-import com.aditya.gmwp.aem.services.config.model.Country;
+import com.aditya.wp.aem.services.config.model.Country;
 
 
 /**

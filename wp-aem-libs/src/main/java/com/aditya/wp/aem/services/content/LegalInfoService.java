@@ -8,8 +8,8 @@ package com.aditya.wp.aem.services.content;
 import java.util.List;
 import java.util.Set;
 
-import com.aditya.gmwp.aem.model.DisclaimerModel;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.model.DisclaimerModel;
+import com.aditya.wp.aem.wrapper.GMResource;
 
 
 /**

@@ -7,7 +7,7 @@ package com.aditya.wp.aem.utils.vi;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.Carline;
+import com.aditya.wp.aem.services.vehicledata.data.Carline;
 
 
 /**

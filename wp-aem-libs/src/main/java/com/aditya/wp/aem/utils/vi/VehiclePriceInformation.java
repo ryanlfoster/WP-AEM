@@ -13,7 +13,7 @@ import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.utils.ddp.DdpSsiIncludeType;
+import com.aditya.wp.aem.utils.ddp.DdpSsiIncludeType;
 
 
 /**

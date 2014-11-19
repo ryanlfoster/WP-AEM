@@ -8,7 +8,7 @@ package com.aditya.wp.aem.services.contentmigration.impl;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-import com.aditya.gmwp.aem.services.contentmigration.SystemInfo;
+import com.aditya.wp.aem.services.contentmigration.SystemInfo;
 
 
 /**

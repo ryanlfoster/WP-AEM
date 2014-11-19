@@ -7,7 +7,7 @@ package com.aditya.wp.aem.services.tracking;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.aditya.gmwp.aem.services.tracking.model.TrackingModel;
+import com.aditya.wp.aem.services.tracking.model.TrackingModel;
 import com.day.cq.wcm.api.Page;
 
 

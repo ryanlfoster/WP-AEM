@@ -15,12 +15,12 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
-import com.aditya.gmwp.aem.components.webwrapping.WebwrappingExternal;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.writers.utils.LinkWriterUtil;
-import com.aditya.gmwp.aem.services.webwrapping.WebwrappingService;
-import com.aditya.gmwp.aem.utils.WCMModeUtil;
+import com.aditya.wp.aem.components.webwrapping.WebwrappingExternal;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.writers.utils.LinkWriterUtil;
+import com.aditya.wp.aem.services.webwrapping.WebwrappingService;
+import com.aditya.wp.aem.utils.WCMModeUtil;
 import com.day.cq.wcm.api.Page;
 
 

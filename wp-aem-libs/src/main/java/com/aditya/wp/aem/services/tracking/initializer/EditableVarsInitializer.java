@@ -7,7 +7,7 @@ package com.aditya.wp.aem.services.tracking.initializer;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
 
 
 /**

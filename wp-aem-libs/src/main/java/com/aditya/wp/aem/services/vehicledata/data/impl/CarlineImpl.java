@@ -8,11 +8,11 @@ package com.aditya.wp.aem.services.vehicledata.data.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.Bodystyle;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
-import com.aditya.gmwp.aem.services.vehicledata.data.Carline;
-import com.aditya.gmwp.aem.services.vehicledata.data.MarketSegment;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.services.vehicledata.data.Bodystyle;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.services.vehicledata.data.Carline;
+import com.aditya.wp.aem.services.vehicledata.data.MarketSegment;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
 
 
 /**

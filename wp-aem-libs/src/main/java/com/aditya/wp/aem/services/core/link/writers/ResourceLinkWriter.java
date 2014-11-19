@@ -15,13 +15,13 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.LinkWriter;
-import com.aditya.gmwp.aem.utils.EncodeDecodeUtil;
-import com.aditya.gmwp.aem.utils.ProtocolUtil;
-import com.aditya.gmwp.aem.utils.WCMModeUtil;
-import com.aditya.gmwp.aem.utils.uri.UriBuilder;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.LinkWriter;
+import com.aditya.wp.aem.utils.EncodeDecodeUtil;
+import com.aditya.wp.aem.utils.ProtocolUtil;
+import com.aditya.wp.aem.utils.WCMModeUtil;
+import com.aditya.wp.aem.utils.uri.UriBuilder;
 import com.day.cq.wcm.api.NameConstants;
 
 

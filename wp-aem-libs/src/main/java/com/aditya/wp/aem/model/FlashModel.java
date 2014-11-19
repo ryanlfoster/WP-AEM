@@ -15,8 +15,8 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.wrapper.DeepResolvingResourceUtil;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.wrapper.DeepResolvingResourceUtil;
 import com.day.cq.commons.jcr.JcrConstants;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.foundation.Download;

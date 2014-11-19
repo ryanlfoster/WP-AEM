@@ -17,7 +17,7 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.global.GmdsRequestAttribute;
+import com.aditya.wp.aem.global.GmdsRequestAttribute;
 import com.day.cq.wcm.api.Page;
 
 

@@ -12,7 +12,7 @@ import java.util.Map;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.utils.uri.UriBuilder;
+import com.aditya.wp.aem.utils.uri.UriBuilder;
 
 
 /**

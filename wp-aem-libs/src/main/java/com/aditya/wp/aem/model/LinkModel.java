@@ -22,12 +22,12 @@ import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.config.LinkBehaviorService;
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
-import com.aditya.gmwp.aem.utils.SelectorUtil;
-import com.aditya.gmwp.aem.utils.html.LinkBehavior;
-import com.aditya.gmwp.aem.utils.uri.UriBuilder;
-import com.aditya.gmwp.aem.wrapper.DeepResolvingResourceUtil;
+import com.aditya.wp.aem.services.config.LinkBehaviorService;
+import com.aditya.wp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.utils.SelectorUtil;
+import com.aditya.wp.aem.utils.html.LinkBehavior;
+import com.aditya.wp.aem.utils.uri.UriBuilder;
+import com.aditya.wp.aem.wrapper.DeepResolvingResourceUtil;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 

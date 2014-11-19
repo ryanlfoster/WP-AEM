@@ -9,9 +9,9 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
-import com.aditya.gmwp.aem.services.contentmigration.Job;
-import com.aditya.gmwp.aem.services.contentmigration.JobMetadata;
-import com.aditya.gmwp.aem.services.contentmigration.SystemInfo;
+import com.aditya.wp.aem.services.contentmigration.Job;
+import com.aditya.wp.aem.services.contentmigration.JobMetadata;
+import com.aditya.wp.aem.services.contentmigration.SystemInfo;
 
 
 /**

@@ -8,9 +8,9 @@ package com.aditya.wp.aem.utils.vi.price;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
-import com.aditya.gmwp.aem.utils.vi.price.capi.PriceConfiguration;
-import com.aditya.gmwp.aem.utils.vi.price.impl.PriceConfigurationImpl;
+import com.aditya.wp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.utils.vi.price.capi.PriceConfiguration;
+import com.aditya.wp.aem.utils.vi.price.impl.PriceConfigurationImpl;
 import com.day.cq.wcm.api.Page;
 
 

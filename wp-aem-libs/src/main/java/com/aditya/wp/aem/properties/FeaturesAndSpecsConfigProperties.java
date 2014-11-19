@@ -8,8 +8,8 @@ package com.aditya.wp.aem.properties;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.utils.diff.DiffUtil;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.utils.diff.DiffUtil;
 import com.day.cq.wcm.api.Page;
 
 

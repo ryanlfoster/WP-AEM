@@ -5,7 +5,7 @@
 
 package com.aditya.wp.aem.services.vehicledata.data.impl;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.Trim;
+import com.aditya.wp.aem.services.vehicledata.data.Trim;
 
 
 /**

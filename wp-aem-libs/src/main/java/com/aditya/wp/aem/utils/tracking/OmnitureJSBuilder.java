@@ -8,8 +8,8 @@ package com.aditya.wp.aem.utils.tracking;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.aditya.gmwp.aem.model.OmnitureLinkTrackingData.OmnitureLinkTrackingEvents;
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.model.OmnitureLinkTrackingData.OmnitureLinkTrackingEvents;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
 
 
 /**

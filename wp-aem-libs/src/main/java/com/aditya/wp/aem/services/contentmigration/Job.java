@@ -10,7 +10,7 @@ import javax.jcr.RepositoryException;
 import javax.jcr.Session;
 import javax.jcr.query.Query;
 
-import com.aditya.gmwp.aem.exception.ContentMigrationException;
+import com.aditya.wp.aem.exception.ContentMigrationException;
 
 
 /**

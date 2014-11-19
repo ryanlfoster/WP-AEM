@@ -9,18 +9,18 @@ import javax.servlet.http.HttpServletRequest;
 
 import org.apache.sling.api.resource.Resource;
 
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.properties.BaseballcardBodystyleProperties;
-import com.aditya.gmwp.aem.properties.BaseballcardCarlineProperties;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
-import com.aditya.gmwp.aem.services.vehicledata.VehicleDataService;
-import com.aditya.gmwp.aem.services.vehicledata.data.Bodystyle;
-import com.aditya.gmwp.aem.services.vehicledata.data.BodystyleBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.Carline;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
-import com.aditya.gmwp.aem.utils.PageUtil;
-import com.aditya.gmwp.aem.wrapper.DeepResolvingResourceUtil;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.properties.BaseballcardBodystyleProperties;
+import com.aditya.wp.aem.properties.BaseballcardCarlineProperties;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.vehicledata.VehicleDataService;
+import com.aditya.wp.aem.services.vehicledata.data.Bodystyle;
+import com.aditya.wp.aem.services.vehicledata.data.BodystyleBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.Carline;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.utils.PageUtil;
+import com.aditya.wp.aem.wrapper.DeepResolvingResourceUtil;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 

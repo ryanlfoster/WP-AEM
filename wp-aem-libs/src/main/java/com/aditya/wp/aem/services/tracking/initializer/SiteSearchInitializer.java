@@ -9,8 +9,8 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
-import com.aditya.gmwp.aem.services.tracking.util.SiteSearchTrackingUtil;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.tracking.util.SiteSearchTrackingUtil;
 import com.day.cq.wcm.api.Page;
 
 

@@ -7,7 +7,7 @@ package com.aditya.wp.aem.services.tracking.initializer;
 
 import java.util.Locale;
 
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
 
 
 /**

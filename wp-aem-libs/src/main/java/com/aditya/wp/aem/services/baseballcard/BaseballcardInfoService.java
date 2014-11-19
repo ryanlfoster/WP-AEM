@@ -7,8 +7,8 @@ package com.aditya.wp.aem.services.baseballcard;
 
 import java.util.Set;
 
-import com.aditya.gmwp.aem.services.baseballcard.model.BaseballcardInfoModel;
-import com.aditya.gmwp.aem.services.core.CacheService;
+import com.aditya.wp.aem.services.baseballcard.model.BaseballcardInfoModel;
+import com.aditya.wp.aem.services.core.CacheService;
 import com.day.cq.wcm.api.Page;
 
 

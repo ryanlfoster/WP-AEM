@@ -10,7 +10,7 @@ import java.util.Iterator;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.utils.dictionary.Dictionary;
+import com.aditya.wp.aem.utils.dictionary.Dictionary;
 import com.day.cq.wcm.api.WCMMode;
 import com.day.cq.wcm.api.components.EditAction;
 import com.day.cq.wcm.api.components.EditConfig;

@@ -8,11 +8,11 @@ package com.aditya.wp.aem.utils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.ResourceResolver;
 
-import com.aditya.gmwp.aem.model.ShoppingLinkModel;
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.services.vehicledata.data.BodystyleBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.ShoppingLink;
-import com.aditya.gmwp.aem.utils.uri.UriBuilder;
+import com.aditya.wp.aem.model.ShoppingLinkModel;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.services.vehicledata.data.BodystyleBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.ShoppingLink;
+import com.aditya.wp.aem.utils.uri.UriBuilder;
 import com.day.cq.wcm.api.Page;
 
 

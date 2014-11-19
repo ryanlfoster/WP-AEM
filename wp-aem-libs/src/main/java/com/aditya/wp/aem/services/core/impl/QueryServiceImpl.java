@@ -19,12 +19,12 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 import org.apache.jackrabbit.util.ISO9075;
 
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.JcrService;
-import com.aditya.gmwp.aem.services.core.QueryService;
-import com.aditya.gmwp.aem.wrapper.GMResource;
-import com.aditya.gmwp.aem.wrapper.LevelServiceWrapper;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.JcrService;
+import com.aditya.wp.aem.services.core.QueryService;
+import com.aditya.wp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.wrapper.LevelServiceWrapper;
 import com.day.cq.search.PredicateGroup;
 import com.day.cq.search.Query;
 import com.day.cq.search.QueryBuilder;
@@ -38,7 +38,7 @@ import com.day.cq.search.result.SearchResult;
  * @since Release 1.0
  *
  */
-@Component(name = "com.aditya.gmwp.aem.services.core.QueryService", label = "GMWP Query Service", enabled = true, metatype = false)
+@Component(name = "com.aditya.wp.aem.services.core.QueryService", label = "GMWP Query Service", enabled = true, metatype = false)
 @Service(QueryService.class)
 @Properties({ @Property(name = "service.description", value = "QueryService Implementation") })
 public class QueryServiceImpl extends AbstractService<QueryServiceImpl> implements QueryService {

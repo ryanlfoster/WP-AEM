@@ -11,10 +11,10 @@ import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.ConfigService;
-import com.aditya.gmwp.aem.utils.DBC;
+import com.aditya.wp.aem.properties.CompanyConfigProperties;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.ConfigService;
+import com.aditya.wp.aem.utils.DBC;
 import com.day.cq.wcm.api.Page;
 
 

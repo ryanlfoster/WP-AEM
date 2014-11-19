@@ -12,16 +12,16 @@ import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 
-import com.aditya.gmwp.aem.global.GmdsRequestAttribute;
-import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.LanguageSLRService;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.tracking.OmnitureService;
-import com.aditya.gmwp.aem.services.tracking.model.TrackingModel;
-import com.aditya.gmwp.aem.services.tracking.util.PagePathAssembler;
-import com.aditya.gmwp.aem.services.vehicledata.VehicleDataService;
+import com.aditya.wp.aem.global.GmdsRequestAttribute;
+import com.aditya.wp.aem.properties.CompanyConfigProperties;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.LanguageSLRService;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.tracking.OmnitureService;
+import com.aditya.wp.aem.services.tracking.model.TrackingModel;
+import com.aditya.wp.aem.services.tracking.util.PagePathAssembler;
+import com.aditya.wp.aem.services.vehicledata.VehicleDataService;
 import com.day.cq.wcm.api.Page;
 
 
@@ -31,7 +31,7 @@ import com.day.cq.wcm.api.Page;
  *
  */
 @Service(OmnitureService.class)
-@Component(name="com.aditya.gmwp.aem.services.tracking.OmnitureService", label="GMWP Omniture Service", metatype = true)
+@Component(name="com.aditya.wp.aem.services.tracking.OmnitureService", label="GMWP Omniture Service", metatype = true)
 public class OmnitureServiceImpl extends AbstractService<OmnitureServiceImpl> implements OmnitureService {
 
     private static final String S_CODE_PATH_SUFFIX = "omniture_config/s_code";

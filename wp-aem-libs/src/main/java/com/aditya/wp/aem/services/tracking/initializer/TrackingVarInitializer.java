@@ -10,8 +10,8 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariableContainer;
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariableContainer;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
 import com.day.cq.wcm.api.Page;
 
 

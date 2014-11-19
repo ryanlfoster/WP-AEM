@@ -16,13 +16,13 @@ import org.apache.commons.httpclient.HttpMethod;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 
-import com.aditya.gmwp.aem.global.LegalPriceContext;
-import com.aditya.gmwp.aem.services.vehicledata.data.BodystyleBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
-import com.aditya.gmwp.aem.services.vehicledata.data.CarlineBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.ConfigurationBaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
-import com.aditya.gmwp.aem.utils.vi.VehiclePriceInformation;
+import com.aditya.wp.aem.global.LegalPriceContext;
+import com.aditya.wp.aem.services.vehicledata.data.BodystyleBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.services.vehicledata.data.CarlineBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.ConfigurationBaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.utils.vi.VehiclePriceInformation;
 import com.day.cq.wcm.api.Page;
 
 /**

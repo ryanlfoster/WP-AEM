@@ -16,12 +16,12 @@ import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.commons.json.JSONArray;
 
-import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
-import com.aditya.gmwp.aem.properties.CompanyConfigResourcePath;
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.config.CookiePrivacyService;
-import com.aditya.gmwp.aem.utils.AnchorUtil;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.properties.CompanyConfigProperties;
+import com.aditya.wp.aem.properties.CompanyConfigResourcePath;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.config.CookiePrivacyService;
+import com.aditya.wp.aem.utils.AnchorUtil;
+import com.aditya.wp.aem.wrapper.GMResource;
 import com.day.cq.wcm.api.Page;
 
 
@@ -31,7 +31,7 @@ import com.day.cq.wcm.api.Page;
  *
  */
 @Service(value = CookiePrivacyService.class)
-@Component(name = "com.aditya.gmwp.aem.services.config.CookiePrivacyService", label = "GMWP Cookie Privacy", metatype = true)
+@Component(name = "com.aditya.wp.aem.services.config.CookiePrivacyService", label = "GMWP Cookie Privacy", metatype = true)
 public class CookiePrivacyImpl implements CookiePrivacyService {
 
     @Reference
@@ -41,7 +41,7 @@ public class CookiePrivacyImpl implements CookiePrivacyService {
     private static final String INCLUSION_ALWAYS_ALLOWED = "not_required";
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.config.CookiePrivacyService#getTrackingProvidersAsJSONString(com.day.cq.wcm.api.Page, java.lang.String)
+	 * @see com.aditya.wp.aem.services.config.CookiePrivacyService#getTrackingProvidersAsJSONString(com.day.cq.wcm.api.Page, java.lang.String)
 	 */
 	@Override
 	public String getTrackingProvidersAsJSONString(final Page currentPage,
@@ -56,7 +56,7 @@ public class CookiePrivacyImpl implements CookiePrivacyService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.config.CookiePrivacyService#isInclusionAlwaysAllowed(com.day.cq.wcm.api.Page, java.lang.String)
+	 * @see com.aditya.wp.aem.services.config.CookiePrivacyService#isInclusionAlwaysAllowed(com.day.cq.wcm.api.Page, java.lang.String)
 	 */
 	@Override
 	public boolean isInclusionAlwaysAllowed(final Page currentPage,

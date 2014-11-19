@@ -12,7 +12,7 @@ import java.nio.charset.Charset;
 
 import org.apache.commons.codec.binary.Base64;
 
-import com.aditya.gmwp.aem.exception.EncodeDecodeException;
+import com.aditya.wp.aem.exception.EncodeDecodeException;
 
 
 /**

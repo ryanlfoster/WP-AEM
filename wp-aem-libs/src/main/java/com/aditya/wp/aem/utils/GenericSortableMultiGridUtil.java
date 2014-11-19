@@ -11,7 +11,7 @@ import java.util.List;
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.wrapper.GMResource;
 
 
 /**

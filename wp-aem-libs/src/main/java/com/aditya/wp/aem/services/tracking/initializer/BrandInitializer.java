@@ -7,9 +7,9 @@ package com.aditya.wp.aem.services.tracking.initializer;
 
 import java.text.ParseException;
 
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
 
 
 /**

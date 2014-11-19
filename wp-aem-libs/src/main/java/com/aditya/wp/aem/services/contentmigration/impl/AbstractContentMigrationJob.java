@@ -14,9 +14,9 @@ import javax.jcr.Session;
 import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.exception.ContentMigrationException;
-import com.aditya.gmwp.aem.services.contentmigration.Job;
-import com.aditya.gmwp.aem.wrapper.GMNode;
+import com.aditya.wp.aem.exception.ContentMigrationException;
+import com.aditya.wp.aem.services.contentmigration.Job;
+import com.aditya.wp.aem.wrapper.GMNode;
 
 /**
  * @author aditya.vennelakanti

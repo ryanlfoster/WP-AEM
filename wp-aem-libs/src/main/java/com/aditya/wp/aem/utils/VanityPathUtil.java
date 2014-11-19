@@ -14,7 +14,7 @@ import org.apache.sling.api.resource.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
 import com.day.cq.wcm.api.Page;
 
 

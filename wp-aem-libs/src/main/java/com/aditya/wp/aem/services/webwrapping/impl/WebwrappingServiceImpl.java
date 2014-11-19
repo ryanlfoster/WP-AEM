@@ -38,13 +38,13 @@ import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.commons.osgi.PropertiesUtil;
 
-import com.aditya.gmwp.aem.components.webwrapping.WebwrappedAppConfig;
-import com.aditya.gmwp.aem.components.webwrapping.WebwrappedAppEntryPoint;
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.JcrService;
-import com.aditya.gmwp.aem.services.webwrapping.WebwrappedApp;
-import com.aditya.gmwp.aem.services.webwrapping.WebwrappingService;
-import com.aditya.gmwp.aem.utils.uri.UriBuilder;
+import com.aditya.wp.aem.components.webwrapping.WebwrappedAppConfig;
+import com.aditya.wp.aem.components.webwrapping.WebwrappedAppEntryPoint;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.JcrService;
+import com.aditya.wp.aem.services.webwrapping.WebwrappedApp;
+import com.aditya.wp.aem.services.webwrapping.WebwrappingService;
+import com.aditya.wp.aem.utils.uri.UriBuilder;
 
 
 /**
@@ -53,7 +53,7 @@ import com.aditya.gmwp.aem.utils.uri.UriBuilder;
  *
  */
 @Service(value = WebwrappingService.class)
-@Component(metatype = true, name = "com.aditya.gmwp.aem.services.webwrapping.WebwrappingService", label="GMWP Webwrapping Service", description = "%webwrappingservice.description")
+@Component(metatype = true, name = "com.aditya.wp.aem.services.webwrapping.WebwrappingService", label="GMWP Webwrapping Service", description = "%webwrappingservice.description")
 public class WebwrappingServiceImpl extends AbstractService<WebwrappingServiceImpl> implements WebwrappingService, EventListener {
     private static final String ENTRY_POINT_PROPERTY = "entryPointParam";
 

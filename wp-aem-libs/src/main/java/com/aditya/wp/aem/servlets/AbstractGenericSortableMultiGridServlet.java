@@ -31,8 +31,8 @@ import org.apache.sling.commons.json.io.JSONWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.utils.NodeUtil;
-import com.aditya.gmwp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.utils.NodeUtil;
+import com.aditya.wp.aem.wrapper.GMResource;
 
 
 /**

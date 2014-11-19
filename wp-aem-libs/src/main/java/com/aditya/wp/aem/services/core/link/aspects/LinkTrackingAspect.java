@@ -7,11 +7,11 @@ package com.aditya.wp.aem.services.core.link.aspects;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.model.LinkTrackingData;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.LinkWriterAspect;
-import com.aditya.gmwp.aem.utils.WCMModeUtil;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.model.LinkTrackingData;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.LinkWriterAspect;
+import com.aditya.wp.aem.utils.WCMModeUtil;
 
 
 /**

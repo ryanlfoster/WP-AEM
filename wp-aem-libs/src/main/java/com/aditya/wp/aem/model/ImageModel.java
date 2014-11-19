@@ -12,8 +12,8 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.utils.MediaUtil;
-import com.aditya.gmwp.aem.wrapper.DeepResolvingResourceUtil;
+import com.aditya.wp.aem.utils.MediaUtil;
+import com.aditya.wp.aem.wrapper.DeepResolvingResourceUtil;
 import com.day.cq.wcm.foundation.ImageMap;
 
 

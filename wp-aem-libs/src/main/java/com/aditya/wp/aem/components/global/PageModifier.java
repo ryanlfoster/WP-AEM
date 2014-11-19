@@ -7,7 +7,7 @@ package com.aditya.wp.aem.components.global;
 
 import org.apache.commons.lang.ArrayUtils;
 
-import com.aditya.gmwp.aem.components.AbstractComponent;
+import com.aditya.wp.aem.components.AbstractComponent;
 
 
 /**
@@ -35,7 +35,7 @@ public class PageModifier extends AbstractComponent {
 		return this.isContentOnly;
 	}
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.AbstractComponent#getResourceType()
+	 * @see com.aditya.wp.aem.components.AbstractComponent#getResourceType()
 	 */
 	@Override
 	public String getResourceType() {

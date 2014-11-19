@@ -5,10 +5,10 @@
 
 package com.aditya.wp.aem.utils.vi.price.capi;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.BaseballcardData;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
-import com.aditya.gmwp.aem.utils.vi.VehiclePriceInformation;
-import com.aditya.gmwp.aem.utils.vi.price.PriceConfigurationFactory;
+import com.aditya.wp.aem.services.vehicledata.data.BaseballcardData;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.utils.vi.VehiclePriceInformation;
+import com.aditya.wp.aem.utils.vi.price.PriceConfigurationFactory;
 
 
 /**

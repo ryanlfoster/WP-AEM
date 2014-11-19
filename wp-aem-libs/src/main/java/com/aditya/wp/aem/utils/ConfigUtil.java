@@ -14,8 +14,8 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.scripting.SlingBindings;
 import org.apache.sling.api.scripting.SlingScriptHelper;
 
-import com.aditya.gmwp.aem.services.config.ConfigService;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.services.config.ConfigService;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
 import com.day.cq.wcm.api.components.ComponentContext;
 
 

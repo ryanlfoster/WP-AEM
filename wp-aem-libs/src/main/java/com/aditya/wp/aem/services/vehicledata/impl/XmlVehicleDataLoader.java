@@ -29,19 +29,19 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
-import com.aditya.gmwp.aem.exception.VehicleDataException;
-import com.aditya.gmwp.aem.exception.XmlVehicleDataLoaderException;
-import com.aditya.gmwp.aem.services.vehicledata.data.Attribute;
-import com.aditya.gmwp.aem.services.vehicledata.data.Bodystyle;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
-import com.aditya.gmwp.aem.services.vehicledata.data.Carline;
-import com.aditya.gmwp.aem.services.vehicledata.data.Series;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.AttributeImpl;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.BodystyleImpl;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.CarlineImpl;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.SeriesImpl;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.VehicleDataImpl;
+import com.aditya.wp.aem.exception.VehicleDataException;
+import com.aditya.wp.aem.exception.XmlVehicleDataLoaderException;
+import com.aditya.wp.aem.services.vehicledata.data.Attribute;
+import com.aditya.wp.aem.services.vehicledata.data.Bodystyle;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.services.vehicledata.data.Carline;
+import com.aditya.wp.aem.services.vehicledata.data.Series;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.services.vehicledata.data.impl.AttributeImpl;
+import com.aditya.wp.aem.services.vehicledata.data.impl.BodystyleImpl;
+import com.aditya.wp.aem.services.vehicledata.data.impl.CarlineImpl;
+import com.aditya.wp.aem.services.vehicledata.data.impl.SeriesImpl;
+import com.aditya.wp.aem.services.vehicledata.data.impl.VehicleDataImpl;
 
 /**
  * @author aditya.vennelakanti

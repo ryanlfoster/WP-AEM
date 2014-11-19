@@ -15,19 +15,19 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.components.webwrapping.WebwrappingExternal;
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.properties.BaseballcardBodystyleProperties;
-import com.aditya.gmwp.aem.properties.BaseballcardCarlineProperties;
-import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
-import com.aditya.gmwp.aem.services.config.CompanyService;
-import com.aditya.gmwp.aem.services.core.ServiceProvider;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.writers.utils.LinkWriterUtil;
-import com.aditya.gmwp.aem.services.vehicledata.VehicleDataService;
-import com.aditya.gmwp.aem.services.vehicledata.data.BodystyleBaseballcardData;
-import com.aditya.gmwp.aem.utils.WCMModeUtil;
+import com.aditya.wp.aem.components.webwrapping.WebwrappingExternal;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.properties.BaseballcardBodystyleProperties;
+import com.aditya.wp.aem.properties.BaseballcardCarlineProperties;
+import com.aditya.wp.aem.properties.CompanyConfigProperties;
+import com.aditya.wp.aem.services.config.CompanyService;
+import com.aditya.wp.aem.services.core.ServiceProvider;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.writers.utils.LinkWriterUtil;
+import com.aditya.wp.aem.services.vehicledata.VehicleDataService;
+import com.aditya.wp.aem.services.vehicledata.data.BodystyleBaseballcardData;
+import com.aditya.wp.aem.utils.WCMModeUtil;
 import com.day.cq.wcm.api.Page;
 
 

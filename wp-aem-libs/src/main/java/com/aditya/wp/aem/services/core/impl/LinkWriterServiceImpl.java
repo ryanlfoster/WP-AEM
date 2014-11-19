@@ -14,20 +14,20 @@ import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.osgi.service.component.ComponentContext;
 
-import com.aditya.gmwp.aem.components.webwrapping.WebwrappingExternal;
-import com.aditya.gmwp.aem.global.AEMTemplateInfo;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.LinkWriterService;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.LinkWriter;
-import com.aditya.gmwp.aem.services.core.link.writers.DefaultLinkWriter;
-import com.aditya.gmwp.aem.services.core.link.writers.ExternalLinkWriter;
-import com.aditya.gmwp.aem.services.core.link.writers.GlossaryLinkWriter;
-import com.aditya.gmwp.aem.services.core.link.writers.Template16LinkWriter;
-import com.aditya.gmwp.aem.services.core.link.writers.Template16wLinkWriter;
-import com.aditya.gmwp.aem.services.core.link.writers.Template17cLinkWriter;
-import com.aditya.gmwp.aem.services.core.link.writers.Template17dLinkWriter;
-import com.aditya.gmwp.aem.services.core.link.writers.utils.LinkWriterUtil;
+import com.aditya.wp.aem.components.webwrapping.WebwrappingExternal;
+import com.aditya.wp.aem.global.AEMTemplateInfo;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.LinkWriterService;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.LinkWriter;
+import com.aditya.wp.aem.services.core.link.writers.DefaultLinkWriter;
+import com.aditya.wp.aem.services.core.link.writers.ExternalLinkWriter;
+import com.aditya.wp.aem.services.core.link.writers.GlossaryLinkWriter;
+import com.aditya.wp.aem.services.core.link.writers.Template16LinkWriter;
+import com.aditya.wp.aem.services.core.link.writers.Template16wLinkWriter;
+import com.aditya.wp.aem.services.core.link.writers.Template17cLinkWriter;
+import com.aditya.wp.aem.services.core.link.writers.Template17dLinkWriter;
+import com.aditya.wp.aem.services.core.link.writers.utils.LinkWriterUtil;
 import com.day.cq.wcm.api.Page;
 
 
@@ -37,7 +37,7 @@ import com.day.cq.wcm.api.Page;
  *
  */
 @Service(value = LinkWriterService.class)
-@Component(immediate = true, name="com.aditya.gmwp.aem.services.core.LinkWriterService")
+@Component(immediate = true, name="com.aditya.wp.aem.services.core.LinkWriterService")
 public class LinkWriterServiceImpl implements LinkWriterService {
 
     private LinkWriter defaultResolver;

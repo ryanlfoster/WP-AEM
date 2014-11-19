@@ -19,15 +19,15 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 import org.apache.commons.collections.CollectionUtils;
 
-import com.aditya.gmwp.aem.model.DisclaimerModel;
-import com.aditya.gmwp.aem.services.content.LegalInfoService;
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.JcrService;
-import com.aditya.gmwp.aem.services.core.QueryService;
-import com.aditya.gmwp.aem.utils.NodeUtil;
-import com.aditya.gmwp.aem.utils.PageUtil;
-import com.aditya.gmwp.aem.wrapper.GMResource;
-import com.aditya.gmwp.aem.wrapper.LevelServiceWrapper.Constants;
+import com.aditya.wp.aem.model.DisclaimerModel;
+import com.aditya.wp.aem.services.content.LegalInfoService;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.JcrService;
+import com.aditya.wp.aem.services.core.QueryService;
+import com.aditya.wp.aem.utils.NodeUtil;
+import com.aditya.wp.aem.utils.PageUtil;
+import com.aditya.wp.aem.wrapper.GMResource;
+import com.aditya.wp.aem.wrapper.LevelServiceWrapper.Constants;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 
@@ -37,7 +37,7 @@ import com.day.cq.wcm.api.PageManager;
  * @since Release 1.0
  *
  */
-@Component(name = "com.aditya.gmwp.aem.services.content.LegalInfoService", label = "GMWP LegalInfoService", description = "Service to retrieve all disclaimers from a page tree", enabled = true, metatype = false)
+@Component(name = "com.aditya.wp.aem.services.content.LegalInfoService", label = "GMWP LegalInfoService", description = "Service to retrieve all disclaimers from a page tree", enabled = true, metatype = false)
 @Service(LegalInfoService.class)
 @Property(name = "service.description", value = "LegalInfoService")
 public class LegalInfoServiceImpl extends AbstractService<LegalInfoServiceImpl> implements LegalInfoService {
@@ -54,7 +54,7 @@ public class LegalInfoServiceImpl extends AbstractService<LegalInfoServiceImpl> 
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.content.LegalInfoService#findAllPotentialDisclaimersForRessource(java.lang.String)
+     * @see com.aditya.wp.aem.services.content.LegalInfoService#findAllPotentialDisclaimersForRessource(java.lang.String)
      */
     @Override
     public final List<DisclaimerModel> findAllPotentialDisclaimersForRessource(final String currentPath) {
@@ -90,7 +90,7 @@ public class LegalInfoServiceImpl extends AbstractService<LegalInfoServiceImpl> 
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.services.content.LegalInfoService#isEnableLayers(java.lang.String)
+     * @see com.aditya.wp.aem.services.content.LegalInfoService#isEnableLayers(java.lang.String)
      */
 	@Override
 	public boolean isEnableLayers(String path) {
@@ -100,7 +100,7 @@ public class LegalInfoServiceImpl extends AbstractService<LegalInfoServiceImpl> 
 
 	/*
 	 * (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.content.LegalInfoService#createDisclaimersByIdsForRessource(java.util.Set, com.aditya.gmwp.aem.wrapper.GMResource)
+	 * @see com.aditya.wp.aem.services.content.LegalInfoService#createDisclaimersByIdsForRessource(java.util.Set, com.aditya.wp.aem.wrapper.GMResource)
 	 */
 	@Override
 	public List<DisclaimerModel> createDisclaimersByIdsForRessource(Set<String> disclaimerIds,

@@ -18,7 +18,7 @@ import org.apache.sling.api.resource.ValueMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.components.AbstractComponent;
+import com.aditya.wp.aem.components.AbstractComponent;
 
 
 /**
@@ -138,7 +138,7 @@ public class WebwrappedAppConfig extends AbstractComponent {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.components.AbstractComponent#getResourceType()
+     * @see com.aditya.wp.aem.components.AbstractComponent#getResourceType()
      */
 	@Override
     public String getResourceType() {

@@ -26,15 +26,15 @@ import org.apache.sling.runmode.RunMode;
 import org.apache.sling.scripting.jsp.taglib.GetPropertyTag;
 import org.apache.sling.settings.SlingSettingsService;
 
-import com.aditya.gmwp.aem.services.contentmigration.ContentMigrationService;
-import com.aditya.gmwp.aem.services.contentmigration.Job;
-import com.aditya.gmwp.aem.services.contentmigration.JobMetadata;
-import com.aditya.gmwp.aem.services.contentmigration.SystemInfo;
-import com.aditya.gmwp.aem.services.contentmigration.utils.ContentMigrationCrxUtil;
-import com.aditya.gmwp.aem.services.contentmigration.utils.ContentMigrationRemoteConnectionUtil;
-import com.aditya.gmwp.aem.services.contentmigration.utils.JobTokenUtil;
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.JcrService;
+import com.aditya.wp.aem.services.contentmigration.ContentMigrationService;
+import com.aditya.wp.aem.services.contentmigration.Job;
+import com.aditya.wp.aem.services.contentmigration.JobMetadata;
+import com.aditya.wp.aem.services.contentmigration.SystemInfo;
+import com.aditya.wp.aem.services.contentmigration.utils.ContentMigrationCrxUtil;
+import com.aditya.wp.aem.services.contentmigration.utils.ContentMigrationRemoteConnectionUtil;
+import com.aditya.wp.aem.services.contentmigration.utils.JobTokenUtil;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.JcrService;
 
 
 /**
@@ -43,7 +43,7 @@ import com.aditya.gmwp.aem.services.core.JcrService;
  *
  */
 @Service(ContentMigrationService.class)
-@Component(name = "com.aditya.gmwp.aem.services.contentmigration.ContentMigrationService", label="GMWP Content Migration", immediate = true, metatype = true)
+@Component(name = "com.aditya.wp.aem.services.contentmigration.ContentMigrationService", label="GMWP Content Migration", immediate = true, metatype = true)
 public class ContentMigrationServiceImpl extends AbstractService<ContentMigrationServiceImpl> implements ContentMigrationService {
 
     @Property(value = "http://%:4503/bin/receive%")
@@ -153,7 +153,7 @@ public class ContentMigrationServiceImpl extends AbstractService<ContentMigratio
     }
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.contentmigration.ContentMigrationService#getAllJobs()
+	 * @see com.aditya.wp.aem.services.contentmigration.ContentMigrationService#getAllJobs()
 	 */
 	@Override
 	public List<Job> getAllJobs() {
@@ -161,7 +161,7 @@ public class ContentMigrationServiceImpl extends AbstractService<ContentMigratio
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.contentmigration.ContentMigrationService#executeJob(com.aditya.gmwp.aem.services.contentmigration.Job, com.aditya.gmwp.aem.services.contentmigration.SystemInfo, boolean)
+	 * @see com.aditya.wp.aem.services.contentmigration.ContentMigrationService#executeJob(com.aditya.wp.aem.services.contentmigration.Job, com.aditya.wp.aem.services.contentmigration.SystemInfo, boolean)
 	 */
 	@Override
 	public String executeJob(final Job job,
@@ -175,7 +175,7 @@ public class ContentMigrationServiceImpl extends AbstractService<ContentMigratio
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.contentmigration.ContentMigrationService#getMetaDataForJob(com.aditya.gmwp.aem.services.contentmigration.Job, com.aditya.gmwp.aem.services.contentmigration.SystemInfo)
+	 * @see com.aditya.wp.aem.services.contentmigration.ContentMigrationService#getMetaDataForJob(com.aditya.wp.aem.services.contentmigration.Job, com.aditya.wp.aem.services.contentmigration.SystemInfo)
 	 */
 	@Override
 	public JobMetadata getMetaDataForJob(final Job job,
@@ -200,7 +200,7 @@ public class ContentMigrationServiceImpl extends AbstractService<ContentMigratio
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.contentmigration.ContentMigrationService#getAllMetaData()
+	 * @see com.aditya.wp.aem.services.contentmigration.ContentMigrationService#getAllMetaData()
 	 */
 	@Override
 	public Map<Job, List<JobMetadata>> getAllMetaData() throws RepositoryException {
@@ -228,7 +228,7 @@ public class ContentMigrationServiceImpl extends AbstractService<ContentMigratio
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.contentmigration.ContentMigrationService#getResult(java.lang.String)
+	 * @see com.aditya.wp.aem.services.contentmigration.ContentMigrationService#getResult(java.lang.String)
 	 */
 	@Override
 	public JobMetadata getResult(String token) {
@@ -248,7 +248,7 @@ public class ContentMigrationServiceImpl extends AbstractService<ContentMigratio
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.contentmigration.ContentMigrationService#getAllSystems()
+	 * @see com.aditya.wp.aem.services.contentmigration.ContentMigrationService#getAllSystems()
 	 */
 	@Override
 	public List<SystemInfo> getAllSystems() {

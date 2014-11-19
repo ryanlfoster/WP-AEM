@@ -11,9 +11,9 @@ import java.util.List;
 import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.components.AbstractComponent;
-import com.aditya.gmwp.aem.services.webwrapping.WebwrappedApp;
-import com.aditya.gmwp.aem.services.webwrapping.WebwrappingService;
+import com.aditya.wp.aem.components.AbstractComponent;
+import com.aditya.wp.aem.services.webwrapping.WebwrappedApp;
+import com.aditya.wp.aem.services.webwrapping.WebwrappingService;
 
 
 /**
@@ -44,7 +44,7 @@ public class Webwrapping extends AbstractComponent {
     public static final String APPLICATION_TYPE_PARAM = "applicationType";
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.AbstractComponent#init()
+	 * @see com.aditya.wp.aem.components.AbstractComponent#init()
 	 */
 	@Override
 	public void init() {
@@ -59,7 +59,7 @@ public class Webwrapping extends AbstractComponent {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.AbstractComponent#getResourceType()
+	 * @see com.aditya.wp.aem.components.AbstractComponent#getResourceType()
 	 */
 	@Override
 	public String getResourceType() {

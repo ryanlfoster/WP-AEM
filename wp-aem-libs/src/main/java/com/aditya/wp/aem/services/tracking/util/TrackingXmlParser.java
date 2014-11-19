@@ -22,9 +22,9 @@ import javax.xml.stream.events.XMLEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.tracking.data.TrackingData;
-import com.aditya.gmwp.aem.services.tracking.data.TrackingDataEntry;
-import com.aditya.gmwp.aem.services.tracking.data.TrackingDataVar;
+import com.aditya.wp.aem.services.tracking.data.TrackingData;
+import com.aditya.wp.aem.services.tracking.data.TrackingDataEntry;
+import com.aditya.wp.aem.services.tracking.data.TrackingDataVar;
 
 
 /**

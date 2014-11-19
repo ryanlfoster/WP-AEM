@@ -12,15 +12,15 @@ import org.apache.sling.api.SlingHttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.annotations.ComponentWithStandardModel;
-import com.aditya.gmwp.aem.annotations.StandardModelGetter;
-import com.aditya.gmwp.aem.components.AbstractComponent;
-import com.aditya.gmwp.aem.components.ComponentAspect;
-import com.aditya.gmwp.aem.model.FlashModel;
-import com.aditya.gmwp.aem.model.FlashParameter;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.LinkWriterService;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.annotations.ComponentWithStandardModel;
+import com.aditya.wp.aem.annotations.StandardModelGetter;
+import com.aditya.wp.aem.components.AbstractComponent;
+import com.aditya.wp.aem.components.ComponentAspect;
+import com.aditya.wp.aem.model.FlashModel;
+import com.aditya.wp.aem.model.FlashParameter;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.LinkWriterService;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
 import com.day.cq.wcm.api.Page;
 
 
@@ -40,7 +40,7 @@ public class SetMaintainedLinkInFlashModelAspect implements ComponentAspect {
     private SlingHttpServletRequest slingRequest;
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.ComponentAspect#applyAspect()
+	 * @see com.aditya.wp.aem.components.ComponentAspect#applyAspect()
 	 */
 	@Override
 	public void applyAspect() {
@@ -90,7 +90,7 @@ public class SetMaintainedLinkInFlashModelAspect implements ComponentAspect {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.ComponentAspect#init(org.apache.sling.api.SlingHttpServletRequest, com.day.cq.wcm.api.Page, com.aditya.gmwp.aem.components.AbstractComponent)
+	 * @see com.aditya.wp.aem.components.ComponentAspect#init(org.apache.sling.api.SlingHttpServletRequest, com.day.cq.wcm.api.Page, com.aditya.wp.aem.components.AbstractComponent)
 	 */
 	@Override
 	public void init(final SlingHttpServletRequest slingRequest,

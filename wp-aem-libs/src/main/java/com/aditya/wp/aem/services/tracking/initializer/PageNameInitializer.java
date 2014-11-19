@@ -7,8 +7,8 @@ package com.aditya.wp.aem.services.tracking.initializer;
 
 import java.util.Locale;
 
-import com.aditya.gmwp.aem.services.tracking.data.OmnitureVariables;
-import com.aditya.gmwp.aem.services.tracking.util.PagePathAssembler;
+import com.aditya.wp.aem.services.tracking.data.OmnitureVariables;
+import com.aditya.wp.aem.services.tracking.util.PagePathAssembler;
 import com.day.cq.wcm.api.Page;
 
 

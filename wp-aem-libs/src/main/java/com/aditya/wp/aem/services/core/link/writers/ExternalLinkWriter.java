@@ -10,19 +10,19 @@ import java.util.List;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 
-import com.aditya.gmwp.aem.model.ExternalLinkModel;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.services.core.link.HTMLLink;
-import com.aditya.gmwp.aem.services.core.link.LinkWriter;
-import com.aditya.gmwp.aem.services.core.link.LinkWriterAspect;
-import com.aditya.gmwp.aem.services.core.link.aspects.EdxTaggingAspect;
-import com.aditya.gmwp.aem.services.core.link.aspects.ExternalHrefAspect;
-import com.aditya.gmwp.aem.services.core.link.aspects.ExternalLinkIconAspect;
-import com.aditya.gmwp.aem.services.core.link.aspects.ExternalLinkOmnitureTrackingAspect;
-import com.aditya.gmwp.aem.services.core.link.aspects.LinkBehaviorAspect;
-import com.aditya.gmwp.aem.services.core.link.aspects.LinkTrackingAspect;
-import com.aditya.gmwp.aem.services.core.link.aspects.RelLinkAspect;
-import com.aditya.gmwp.aem.services.core.link.aspects.TitleIdLinkAspect;
+import com.aditya.wp.aem.model.ExternalLinkModel;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.services.core.link.HTMLLink;
+import com.aditya.wp.aem.services.core.link.LinkWriter;
+import com.aditya.wp.aem.services.core.link.LinkWriterAspect;
+import com.aditya.wp.aem.services.core.link.aspects.EdxTaggingAspect;
+import com.aditya.wp.aem.services.core.link.aspects.ExternalHrefAspect;
+import com.aditya.wp.aem.services.core.link.aspects.ExternalLinkIconAspect;
+import com.aditya.wp.aem.services.core.link.aspects.ExternalLinkOmnitureTrackingAspect;
+import com.aditya.wp.aem.services.core.link.aspects.LinkBehaviorAspect;
+import com.aditya.wp.aem.services.core.link.aspects.LinkTrackingAspect;
+import com.aditya.wp.aem.services.core.link.aspects.RelLinkAspect;
+import com.aditya.wp.aem.services.core.link.aspects.TitleIdLinkAspect;
 
 
 /**

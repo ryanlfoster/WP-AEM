@@ -18,9 +18,9 @@ import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.BodystyleImpl;
-import com.aditya.gmwp.aem.services.vehicledata.data.impl.CarlineImpl;
-import com.aditya.gmwp.aem.utils.StringUtil;
+import com.aditya.wp.aem.services.vehicledata.data.impl.BodystyleImpl;
+import com.aditya.wp.aem.services.vehicledata.data.impl.CarlineImpl;
+import com.aditya.wp.aem.utils.StringUtil;
 
 /**
  * @author aditya.vennelakanti

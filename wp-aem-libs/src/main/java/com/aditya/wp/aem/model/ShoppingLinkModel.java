@@ -6,7 +6,7 @@
 package com.aditya.wp.aem.model;
 
 
-import com.aditya.gmwp.aem.services.vehicledata.data.ShoppingLink;
+import com.aditya.wp.aem.services.vehicledata.data.ShoppingLink;
 
 
 /**

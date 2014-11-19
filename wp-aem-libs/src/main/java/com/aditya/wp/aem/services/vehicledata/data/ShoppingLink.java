@@ -5,9 +5,9 @@
 
 package com.aditya.wp.aem.services.vehicledata.data;
 
-import com.aditya.gmwp.aem.properties.BaseballcardBodystyleProperties;
-import com.aditya.gmwp.aem.properties.LanguageConfigProperties;
-import com.aditya.gmwp.aem.properties.Properties;
+import com.aditya.wp.aem.properties.BaseballcardBodystyleProperties;
+import com.aditya.wp.aem.properties.LanguageConfigProperties;
+import com.aditya.wp.aem.properties.Properties;
 
 
 /**

@@ -9,9 +9,9 @@ import org.apache.commons.lang.ArrayUtils;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 
-import com.aditya.gmwp.aem.global.AEMComponentInfo;
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.utils.StringUtil;
+import com.aditya.wp.aem.global.AEMComponentInfo;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.utils.StringUtil;
 import com.day.cq.commons.jcr.JcrConstants;
 
 

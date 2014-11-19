@@ -18,9 +18,9 @@ import javax.jcr.Value;
 
 import org.apache.commons.lang.StringUtils;
 
-import com.aditya.gmwp.aem.services.contentmigration.Job;
-import com.aditya.gmwp.aem.services.contentmigration.JobMetadata;
-import com.aditya.gmwp.aem.services.contentmigration.impl.JobMetadataImpl;
+import com.aditya.wp.aem.services.contentmigration.Job;
+import com.aditya.wp.aem.services.contentmigration.JobMetadata;
+import com.aditya.wp.aem.services.contentmigration.impl.JobMetadataImpl;
 import com.day.cq.commons.jcr.JcrConstants;
 
 /**

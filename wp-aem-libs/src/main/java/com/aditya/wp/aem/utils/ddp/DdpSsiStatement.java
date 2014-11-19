@@ -18,13 +18,13 @@ import org.apache.sling.api.scripting.SlingScriptHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.exception.DdpSsiStatementException;
-import com.aditya.gmwp.aem.services.config.ConfigService;
-import com.aditya.gmwp.aem.services.vehicledata.VehicleDataService;
-import com.aditya.gmwp.aem.services.vehicledata.data.Brand;
-import com.aditya.gmwp.aem.services.vehicledata.data.Carline;
-import com.aditya.gmwp.aem.utils.ConfigUtil;
-import com.aditya.gmwp.aem.utils.StringUtil;
+import com.aditya.wp.aem.exception.DdpSsiStatementException;
+import com.aditya.wp.aem.services.config.ConfigService;
+import com.aditya.wp.aem.services.vehicledata.VehicleDataService;
+import com.aditya.wp.aem.services.vehicledata.data.Brand;
+import com.aditya.wp.aem.services.vehicledata.data.Carline;
+import com.aditya.wp.aem.utils.ConfigUtil;
+import com.aditya.wp.aem.utils.StringUtil;
 
 
 /**

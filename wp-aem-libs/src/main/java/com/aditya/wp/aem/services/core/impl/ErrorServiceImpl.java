@@ -22,11 +22,11 @@ import org.apache.sling.api.resource.ResourceResolver;
 import org.apache.sling.commons.osgi.PropertiesUtil;
 import org.osgi.service.http.HttpContext;
 
-import com.aditya.gmwp.aem.services.config.ConfigService;
-import com.aditya.gmwp.aem.services.config.LevelService;
-import com.aditya.gmwp.aem.services.core.ErrorService;
-import com.aditya.gmwp.aem.services.core.JcrService;
-import com.aditya.gmwp.aem.utils.WCMModeUtil;
+import com.aditya.wp.aem.services.config.ConfigService;
+import com.aditya.wp.aem.services.config.LevelService;
+import com.aditya.wp.aem.services.core.ErrorService;
+import com.aditya.wp.aem.services.core.JcrService;
+import com.aditya.wp.aem.utils.WCMModeUtil;
 import com.day.cq.wcm.api.Page;
 import com.day.cq.wcm.api.PageManager;
 import com.day.cq.wcm.api.WCMMode;
@@ -38,7 +38,7 @@ import com.day.cq.wcm.api.WCMMode;
  *
  */
 @Service(value = ErrorService.class)
-@Component(name = "com.aditya.gmwp.aem.services.core.ErrorService", label = "GMWP ErrorService", description = "This service helps handling error pages.", metatype = true)
+@Component(name = "com.aditya.wp.aem.services.core.ErrorService", label = "GMWP ErrorService", description = "This service helps handling error pages.", metatype = true)
 public class ErrorServiceImpl implements ErrorService {
 	
     private static final String SERVICE_NAMESPACE = "errorservice.";
@@ -84,7 +84,7 @@ public class ErrorServiceImpl implements ErrorService {
     }
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.ErrorService#getErrorPath(javax.servlet.http.HttpServletRequest, com.day.cq.wcm.api.Page, org.apache.sling.api.resource.Resource, int)
+	 * @see com.aditya.wp.aem.services.core.ErrorService#getErrorPath(javax.servlet.http.HttpServletRequest, com.day.cq.wcm.api.Page, org.apache.sling.api.resource.Resource, int)
 	 */
 	@Override
 	public String getErrorPath(HttpServletRequest request,
@@ -175,7 +175,7 @@ public class ErrorServiceImpl implements ErrorService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.ErrorService#isAnonymousUser(javax.servlet.http.HttpServletRequest)
+	 * @see com.aditya.wp.aem.services.core.ErrorService#isAnonymousUser(javax.servlet.http.HttpServletRequest)
 	 */
 	@Override
 	public boolean isAnonymousUser(HttpServletRequest request) {
@@ -183,7 +183,7 @@ public class ErrorServiceImpl implements ErrorService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.ErrorService#isAuthorInstance(javax.servlet.http.HttpServletRequest)
+	 * @see com.aditya.wp.aem.services.core.ErrorService#isAuthorInstance(javax.servlet.http.HttpServletRequest)
 	 */
 	@Override
 	public boolean isAuthorInstance(HttpServletRequest request) {
@@ -191,7 +191,7 @@ public class ErrorServiceImpl implements ErrorService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.ErrorService#isHumanRequest(javax.servlet.http.HttpServletRequest)
+	 * @see com.aditya.wp.aem.services.core.ErrorService#isHumanRequest(javax.servlet.http.HttpServletRequest)
 	 */
 	@Override
 	public boolean isHumanRequest(HttpServletRequest request) {
@@ -216,7 +216,7 @@ public class ErrorServiceImpl implements ErrorService {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.services.core.ErrorService#isUseSimpleErrorPage()
+	 * @see com.aditya.wp.aem.services.core.ErrorService#isUseSimpleErrorPage()
 	 */
 	@Override
 	public boolean isUseSimpleErrorPage() {

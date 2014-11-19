@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.components.AbstractComponent;
-import com.aditya.gmwp.aem.utils.ProtocolUtil;
+import com.aditya.wp.aem.components.AbstractComponent;
+import com.aditya.wp.aem.utils.ProtocolUtil;
 
 
 /**
@@ -72,7 +72,7 @@ public class WebwrappingExternal extends AbstractComponent {
 
     /*
      * (non-Javadoc)
-     * @see com.aditya.gmwp.aem.components.AbstractComponent#getResourceType()
+     * @see com.aditya.wp.aem.components.AbstractComponent#getResourceType()
      */
     @Override
     public String getResourceType() {

@@ -13,10 +13,10 @@ import org.apache.sling.api.scripting.SlingScriptHelper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.annotations.DiffableProperty;
-import com.aditya.gmwp.aem.components.AbstractComponent;
-import com.aditya.gmwp.aem.components.ComponentAspect;
-import com.aditya.gmwp.aem.utils.diff.DiffUtil;
+import com.aditya.wp.aem.annotations.DiffableProperty;
+import com.aditya.wp.aem.components.AbstractComponent;
+import com.aditya.wp.aem.components.ComponentAspect;
+import com.aditya.wp.aem.utils.diff.DiffUtil;
 import com.day.cq.wcm.api.Page;
 
 
@@ -35,7 +35,7 @@ public class SetDiffableComponentPropertiesAspect implements ComponentAspect {
     private AbstractComponent component;
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.ComponentAspect#applyAspect()
+	 * @see com.aditya.wp.aem.components.ComponentAspect#applyAspect()
 	 */
 	@Override
 	public void applyAspect() {
@@ -59,7 +59,7 @@ public class SetDiffableComponentPropertiesAspect implements ComponentAspect {
 	}
 
 	/* (non-Javadoc)
-	 * @see com.aditya.gmwp.aem.components.ComponentAspect#init(org.apache.sling.api.SlingHttpServletRequest, com.day.cq.wcm.api.Page, com.aditya.gmwp.aem.components.AbstractComponent)
+	 * @see com.aditya.wp.aem.components.ComponentAspect#init(org.apache.sling.api.SlingHttpServletRequest, com.day.cq.wcm.api.Page, com.aditya.wp.aem.components.AbstractComponent)
 	 */
 	@Override
 	public void init(final SlingHttpServletRequest slingRequest,

@@ -18,8 +18,8 @@ import org.osgi.service.component.ComponentContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.aditya.gmwp.aem.services.core.AbstractService;
-import com.aditya.gmwp.aem.services.core.ExportService;
+import com.aditya.wp.aem.services.core.AbstractService;
+import com.aditya.wp.aem.services.core.ExportService;
 import com.jcraft.jsch.Channel;
 import com.jcraft.jsch.ChannelSftp;
 import com.jcraft.jsch.JSch;
@@ -33,7 +33,7 @@ import com.jcraft.jsch.SftpException;
  * @since Release 1.0
  *
  */
-@Component(name = "com.aditya.gmwp.aem.services.core.ExportService", label = "GMWP SFTP Export Service", description = "Allows for SFTP uploads.", enabled = true, metatype = true)
+@Component(name = "com.aditya.wp.aem.services.core.ExportService", label = "GMWP SFTP Export Service", description = "Allows for SFTP uploads.", enabled = true, metatype = true)
 @Service(value = ExportService.class)
 public class SFTPExportServiceImpl extends AbstractService<SFTPExportServiceImpl> implements ExportService {
 	

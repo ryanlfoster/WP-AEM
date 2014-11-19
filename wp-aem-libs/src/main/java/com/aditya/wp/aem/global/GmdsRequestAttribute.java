@@ -10,11 +10,11 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.aditya.gmwp.aem.components.webwrapping.WebwrappingPreprocessor;
-import com.aditya.gmwp.aem.services.config.model.Country;
-import com.aditya.gmwp.aem.services.tracking.model.TrackingModel;
-import com.aditya.gmwp.aem.services.vehicledata.data.VehicleData;
-import com.aditya.gmwp.aem.utils.ddp.DdpDisclaimerRequestData;
+import com.aditya.wp.aem.components.webwrapping.WebwrappingPreprocessor;
+import com.aditya.wp.aem.services.config.model.Country;
+import com.aditya.wp.aem.services.tracking.model.TrackingModel;
+import com.aditya.wp.aem.services.vehicledata.data.VehicleData;
+import com.aditya.wp.aem.utils.ddp.DdpDisclaimerRequestData;
 
 
 /**

@@ -11,8 +11,8 @@ import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ResourceUtil;
 import org.apache.sling.api.resource.ValueMap;
 
-import com.aditya.gmwp.aem.model.LinkModel;
-import com.aditya.gmwp.aem.utils.StringUtil;
+import com.aditya.wp.aem.model.LinkModel;
+import com.aditya.wp.aem.utils.StringUtil;
 import com.day.cq.wcm.api.Page;
 
 
