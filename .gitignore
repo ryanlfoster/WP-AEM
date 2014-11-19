@@ -1,0 +1,10 @@
+
+.project
+.settings/
+.classpath
+
+*.DS_Store
+*.class
+hs_err_pid*
+target/
+

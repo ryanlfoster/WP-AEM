@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+	xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+	xmlns:nt="http://www.jcp.org/jcr/nt/1.0" jcr:language="en"
+	jcr:mixinTypes="[mix:language]" jcr:primaryType="nt:folder">
+	<t01_language_selection_title
+		jcr:mixinTypes="[sling:Message]" jcr:primaryType="nt:folder"
+		sling:message="T01 Language Selection Template" />
+	<t01_language_selection_desc
+		jcr:mixinTypes="[sling:Message]" jcr:primaryType="nt:folder"
+		sling:message="Specifies the template for the page used to provide a language selection." />
+	<browser_language_redirect_tablabel
+		jcr:mixinTypes="[sling:Message]" jcr:primaryType="nt:folder"
+		sling:message="Template Specific" />
+	<browser_language_redirect_enable_desc
+		jcr:mixinTypes="[sling:Message]" jcr:primaryType="nt:folder"
+		sling:message="Select this, if the browsers standard language should be used to choose the right start page." />
+	<browser_language_redirect_enable_label
+		jcr:mixinTypes="[sling:Message]" jcr:primaryType="nt:folder"
+		sling:message="Enable Browser Language Redirect" />
+</jcr:root>

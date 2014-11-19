@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root 
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    xtype="tabpanel"
+    jcr:primaryType="cq:Dialog">
+		<items jcr:primaryType="cq:WidgetCollection">
+	       	<image
+				jcr:primaryType="cq:Widget"
+				path="/libs/wcm/foundation/components/image/dialog/items/image.infinity.json"
+				xtype="cqinclude" />
+			<advanced
+				jcr:primaryType="cq:Widget"
+				path="/libs/wcm/foundation/components/image/dialog/items/advanced.infinity.json"
+				xtype="cqinclude" />
+		</items>
+</jcr:root>

@@ -1,0 +1,5 @@
+{
+    "sly.serverUrl": "http://localhost:7000",
+    "sly.remoteUser": "admin",
+    "sly.remoteUserPassword": "admin"
+}

@@ -1,0 +1,108 @@
+<!--/*
+
+  ADOBE CONFIDENTIAL
+  __________________
+
+   Copyright 2014 Adobe Systems Incorporated
+   All Rights Reserved.
+
+  NOTICE:  All information contained herein is, and remains
+  the property of Adobe Systems Incorporated and its suppliers,
+  if any.  The intellectual and technical concepts contained
+  herein are proprietary to Adobe Systems Incorporated and its
+  suppliers and are protected by trade secret or copyright law.
+  Dissemination of this information or reproduction of this material
+  is strictly forbidden unless prior written permission is obtained
+  from Adobe Systems Incorporated.
+  
+  Renders the head markup of a sightly page
+*/-->
+<head data-sly-use.head="head.js"
+      data-sly-use.headlibRenderer="/libs/wcm/foundation/components/page/headlibs.html"
+      data-sly-use.stats="/libs/wcm/foundation/components/page/stats.js"
+      data-sly-use.wcmInit="/libs/wcm/foundation/components/page/initwcm.js"
+      data-sly-use.pageModifier="com.aditya.gmwp.aem.components.global.PageModifier"
+      data-sly-use.htmlInfo="com.aditya.gmwp.aem.components.sightly.HTMLHeadInfo"
+      data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+
+	<meta data-sly-test.isAuthor="${wcmmode.edit || wcmmode.design}" data-sly-call="${clientLib.all @ categories='aem.gmwp.author'}" data-sly-unwrap></meta>
+	<meta data-sly-test="${!isAuthor}" data-sly-call="${clientLib.all @ categories='aem.gmwp.publisher'}" data-sly-unwrap></meta>
+
+    <meta data-sly-test="${!wcmmode.disabled && wcmInit.isTouchAuthoring}" data-sly-call="${clientLib.all @ categories='cq.authoring.page'}" data-sly-unwrap></meta>
+    <meta data-sly-test="${!wcmmode.disabled && !wcmInit.isTouchAuthoring}" data-sly-call="${clientLib.all @ categories='cq.wcm.edit'}" data-sly-unwrap></meta>
+    <script data-sly-test="${!wcmmode.disabled && !wcmInit.isTouchAuthoring}" type="text/javascript">
+        (function() {
+
+            var cfg = ${wcmInit.undoConfig @ context='unsafe'};
+            cfg.pagePath = "${currentPage.path @ context='uri'}";
+
+            if (CQClientLibraryManager.channelCB() != "touch") {
+                cfg.enabled = ${wcmmode.edit @ context="scriptString"};
+                CQ.undo.UndoManager.initialize(cfg);
+                CQ.Ext.onReady(function() {
+                    CQ.undo.UndoManager.detectCachedPage((new Date()).getTime());
+                });
+            }
+        })();
+
+        CQ.WCM.launchSidekick("${currentPage.path @ context='uri'}", {
+            propsDialog: "${wcmInit.dialogPath @ context='uri'}",
+            locked: ${currentPage.locked @ context="scriptString"}
+        });
+    </script>
+    <!--/* WCM initialization code end */-->
+    <!--/* Support for page view statistics and MVT start */-->
+    <meta data-sly-call="${clientLib.all @ categories='[cq.jquery]'}" data-sly-unwrap></meta>
+    <script type="text/javascript">
+        {
+            window.setTimeout(function() {
+                $CQ.getScript("${stats.pvsTrackUrl @ context='uri'}?path=${stats.containingPage.path @ context='uri'}");
+            }, 1);
+        }
+    </script>
+    <script data-sly-test="${stats.mvtTrackUrl}" type="text/javascript">
+        function trackMVTImpression() {
+            if (window.randomBannerList) {
+                var trackImg = new Image();
+                trackImg.src = CQ.shared.HTTP.getXhrHookedURL("${stats.mvtTrackUrl @ context='uri'}/view?path=${stats.containingPage.path @ context='scriptString'}&vars=" + encodeURIComponent(window.randomBannerList));
+            }
+        }
+    </script>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
+	<meta name="keywords" content="${head.keywords}" ></meta>
+	<meta name="description" content="${head.description}" ></meta>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" ></meta>
+	<meta http-equiv="cleartype" content="on" ></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1" ></meta>
+	<meta data-sly-test="${htmlInfo.motionPointEnabled}" name="languagecode" content="${langswitch_langcode}"></meta>
+	<meta data-sly-test="${htmlInfo.motionPointEnabled}" name="urlpath" content="${langswitch_urlpath}"></meta>
+	<meta data-sly-test="${htmlInfo.iosWebappCapable}" name="apple-mobile-web-app-capable" content="yes"></meta>
+	<meta data-sly-test="${htmlInfo.contentPath}" name="contentpath" content="${htmlInfo.contentPath}"></meta>
+	<meta data-sly-test="${pageModifier.contentOnly}" name="robots" content="noindex, nofollow"></meta>
+	<meta data-sly-test="${htmlInfo.microsoftTileColor}" name="msapplication-TileColor" content="#${htmlInfo.microsoftTileColor}"></meta>
+	<meta data-sly-test="${htmlInfo.microsoftIconPath}" name="msapplication-TileImage" content="${htmlInfo.microsoftIconPath}"></meta>
+	<meta data-sly-test="${htmlInfo.vehicleInfoAvailable}" name="brand" content="${htmlInfo.brand}"></meta>
+	<meta data-sly-test="${htmlInfo.vehicleInfoAvailable}" name="carline" content="${htmlInfo.carline}"></meta>
+	<meta data-sly-test="${htmlInfo.vehicleInfoAvailable}" name="bodystyle" content="${htmlInfo.bodystyle}"></meta>
+	<meta data-sly-test="${htmlInfo.vehicleInfoAvailable}" name="year" content="${htmlInfo.modelyear}"></meta>
+	<meta data-sly-test="${head.og_title}" property="og:title" content="${head.og_title}"></meta>
+	<meta data-sly-test="${head.og_type}" property="og:type" content="${head.og_type}"></meta>
+	<meta data-sly-test="${htmlInfo.openGraphCanonicalUrl}" property="og:url" content="${htmlInfo.openGraphCanonicalUrl}"></meta>
+	<meta data-sly-test="${htmlInfo.openGraphImageReference}" property="og:image" content="${htmlInfo.openGraphImageReference}"></meta>
+	<meta data-sly-test="${htmlInfo.openGraphSitename}" property="og:site_name" content="${htmlInfo.openGraphSitename}"></meta>
+	<meta data-sly-test="${htmlInfo.openGraphFacebookAdmins}" property="fb:admins" content="${htmlInfo.openGraphFacebookAdmins}"></meta>
+	<meta data-sly-test="${head.og_description}" property="og:description" content="${head.og_description}"></meta>
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="${head.faviconPath}"></link>
+	<link rel="shortcut icon" type="image/x-icon" href="${head.faviconPath}"></link>
+	<link data-sly-test="${htmlInfo.appleIconPath}" rel="apple-touch-icon" href="${head.appleIconPath}"></link>
+	<link data-sly-test="${htmlInfo.androidIconPath}"rel="icon" sizes="196x196" href="${androidIconPath}"></link>
+	<link data-sly-test="${pageModifier.contentOnly}" rel="canonical" href="<%= CanonicalUrl.get(slingRequest, currentPage) %>"></meta>
+
+    <title>${head.title}</title>
+	<base data-sly-test="${pageModifier.embedded}" target="_parent"></base>
+
+    <section data-sly-include="siteverification.html" data-sly-unwrap></section>
+    <section data-sly-include="head/twitter.html" data-sly-unwrap></section>
+</head>
