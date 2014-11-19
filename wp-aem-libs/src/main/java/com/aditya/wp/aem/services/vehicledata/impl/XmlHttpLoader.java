@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.vehicledata.impl;
+package com.aditya.wp.aem.services.vehicledata.impl;
 
 import java.io.IOException;
 import java.io.InputStream;

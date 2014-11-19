@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.utils.diff;
+package com.aditya.wp.aem.utils.diff;
 
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;

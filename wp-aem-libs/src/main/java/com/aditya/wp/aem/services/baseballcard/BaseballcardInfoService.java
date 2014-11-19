@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.baseballcard;
+package com.aditya.wp.aem.services.baseballcard;
 
 import java.util.Set;
 

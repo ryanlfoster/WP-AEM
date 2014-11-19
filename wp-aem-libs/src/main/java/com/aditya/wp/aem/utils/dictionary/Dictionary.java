@@ -3,7 +3,7 @@
  * by Aditya Vennelakanti and may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.utils.dictionary;
+package com.aditya.wp.aem.utils.dictionary;
 
 import java.util.ResourceBundle;
 

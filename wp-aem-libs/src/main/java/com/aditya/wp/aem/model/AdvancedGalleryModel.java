@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.model;
+package com.aditya.wp.aem.model;
 
 import org.apache.commons.lang.StringUtils;
 import org.apache.sling.api.resource.Resource;

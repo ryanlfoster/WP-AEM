@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.batchjob.impl;
+package com.aditya.wp.aem.services.batchjob.impl;
 
 import java.util.Arrays;
 import java.util.List;

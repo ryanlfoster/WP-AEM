@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.core.impl;
+package com.aditya.wp.aem.services.core.impl;
 
 import java.io.File;
 import java.io.InputStream;

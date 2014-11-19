@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.tracking.initializer;
+package com.aditya.wp.aem.services.tracking.initializer;
 
 import java.util.Map;
 

@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.utils.vi.price.impl;
+package com.aditya.wp.aem.utils.vi.price.impl;
 
 import com.aditya.gmwp.aem.properties.CompanyConfigProperties;
 import com.aditya.gmwp.aem.properties.PriceConfigProperties;

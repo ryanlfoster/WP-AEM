@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.utils.vi;
+package com.aditya.wp.aem.utils.vi;
 
 import java.io.Serializable;
 import java.text.NumberFormat;

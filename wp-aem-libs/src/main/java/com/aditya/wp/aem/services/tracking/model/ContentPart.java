@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.tracking.model;
+package com.aditya.wp.aem.services.tracking.model;
 
 
 /**

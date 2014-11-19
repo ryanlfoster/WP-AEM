@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.contentmigration.utils;
+package com.aditya.wp.aem.services.contentmigration.utils;
 
 import com.aditya.gmwp.aem.services.contentmigration.Job;
 import com.aditya.gmwp.aem.services.contentmigration.SystemInfo;

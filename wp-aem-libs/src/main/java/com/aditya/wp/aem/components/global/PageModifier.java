@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.components.global;
+package com.aditya.wp.aem.components.global;
 
 import org.apache.commons.lang.ArrayUtils;
 

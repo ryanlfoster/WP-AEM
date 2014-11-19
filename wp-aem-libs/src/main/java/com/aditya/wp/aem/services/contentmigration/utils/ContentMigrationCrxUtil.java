@@ -3,7 +3,7 @@
  * by Aditya Vennelakanti and may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.contentmigration.utils;
+package com.aditya.wp.aem.services.contentmigration.utils;
 
 import java.util.ArrayList;
 import java.util.Calendar;

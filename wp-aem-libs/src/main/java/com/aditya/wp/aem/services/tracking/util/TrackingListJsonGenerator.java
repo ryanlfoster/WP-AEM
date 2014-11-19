@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.tracking.util;
+package com.aditya.wp.aem.services.tracking.util;
 
 import java.util.List;
 

@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.global;
+package com.aditya.wp.aem.global;
 
 import java.util.EnumSet;
 import java.util.HashMap;

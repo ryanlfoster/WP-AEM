@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.annotations;
+package com.aditya.wp.aem.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.aspects;
+package com.aditya.wp.aem.aspects;
 
 import org.apache.sling.api.SlingHttpServletRequest;
 

@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.webwrapping;
+package com.aditya.wp.aem.services.webwrapping;
 
 import java.util.HashMap;
 import java.util.List;

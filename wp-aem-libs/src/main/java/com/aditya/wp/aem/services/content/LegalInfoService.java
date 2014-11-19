@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.content;
+package com.aditya.wp.aem.services.content;
 
 import java.util.List;
 import java.util.Set;

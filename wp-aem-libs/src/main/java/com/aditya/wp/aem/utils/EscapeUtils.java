@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.utils;
+package com.aditya.wp.aem.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

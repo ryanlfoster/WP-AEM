@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.contentmigration;
+package com.aditya.wp.aem.services.contentmigration;
 
 import java.util.Date;
 import java.util.List;

@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.contentmigration.utils;
+package com.aditya.wp.aem.services.contentmigration.utils;
 
 import java.io.IOException;
 import java.net.ConnectException;

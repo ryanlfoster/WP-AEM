@@ -3,7 +3,7 @@
  * and may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.wrapper;
+package com.aditya.wp.aem.wrapper;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

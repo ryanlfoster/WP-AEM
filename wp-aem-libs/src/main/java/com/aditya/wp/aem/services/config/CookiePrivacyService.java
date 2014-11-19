@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.config;
+package com.aditya.wp.aem.services.config;
 
 import com.day.cq.wcm.api.Page;
 

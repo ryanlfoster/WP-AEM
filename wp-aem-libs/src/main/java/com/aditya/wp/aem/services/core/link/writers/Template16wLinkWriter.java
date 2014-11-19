@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.core.link.writers;
+package com.aditya.wp.aem.services.core.link.writers;
 
 import java.util.HashMap;
 import java.util.Map;

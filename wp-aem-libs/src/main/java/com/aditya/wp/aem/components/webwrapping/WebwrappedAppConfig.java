@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.components.webwrapping;
+package com.aditya.wp.aem.components.webwrapping;
 
 import java.util.ArrayList;
 import java.util.List;

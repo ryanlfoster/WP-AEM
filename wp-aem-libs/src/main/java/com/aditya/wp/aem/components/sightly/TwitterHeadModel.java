@@ -3,7 +3,7 @@
  * by Aditya Vennelakanti and may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.components.sightly;
+package com.aditya.wp.aem.components.sightly;
 
 import com.adobe.cq.sightly.WCMUse;
 

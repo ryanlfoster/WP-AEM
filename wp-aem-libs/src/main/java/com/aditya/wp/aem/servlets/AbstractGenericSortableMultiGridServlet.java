@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.servlets;
+package com.aditya.wp.aem.servlets;
 
 import java.io.IOException;
 import java.util.Collections;

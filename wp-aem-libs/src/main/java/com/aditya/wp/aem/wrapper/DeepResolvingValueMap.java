@@ -9,7 +9,7 @@
  * limitations under the License.
  */
 
-package com.aditya.gmwp.aem.wrapper;
+package com.aditya.wp.aem.wrapper;
 
 import java.util.Collection;
 import java.util.HashMap;

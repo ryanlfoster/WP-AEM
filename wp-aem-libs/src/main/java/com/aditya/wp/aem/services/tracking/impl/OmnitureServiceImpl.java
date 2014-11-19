@@ -3,7 +3,7 @@
  * may not be reproduced elsewhere without prior written approval.
  */
 
-package com.aditya.gmwp.aem.services.tracking.impl;
+package com.aditya.wp.aem.services.tracking.impl;
 
 import javax.servlet.http.HttpServletRequest;
 
