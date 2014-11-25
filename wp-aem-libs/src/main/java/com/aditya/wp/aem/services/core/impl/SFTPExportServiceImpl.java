@@ -33,7 +33,7 @@ import com.jcraft.jsch.SftpException;
  * @since Release 1.0
  *
  */
-@Component(name = "com.aditya.wp.aem.services.core.ExportService", label = "GMWP SFTP Export Service", description = "Allows for SFTP uploads.", enabled = true, metatype = true)
+@Component(name = "com.aditya.wp.aem.services.core.ExportService", label = "WP SFTP Export Service", description = "Allows for SFTP uploads.", enabled = true, metatype = true)
 @Service(value = ExportService.class)
 public class SFTPExportServiceImpl extends AbstractService<SFTPExportServiceImpl> implements ExportService {
 	

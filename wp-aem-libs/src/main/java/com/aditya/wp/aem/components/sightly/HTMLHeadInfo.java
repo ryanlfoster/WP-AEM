@@ -87,6 +87,10 @@ public class HTMLHeadInfo extends WCMUse {
 
 		final Page lslrPage = getCurrentPage().getAbsoluteParent(levelService.getLanguageLevel());
 
+		if (lslrPage == null) {
+			return;
+		}
+
 		final Locale locale = configService.getPageLocale(lslrPage);
 		this.code = locale.getLanguage() + "_" + locale.getCountry();
 
@@ -179,19 +183,19 @@ public class HTMLHeadInfo extends WCMUse {
 	}
 
 	public final String getCode() {
-		return code;
+		return StringUtils.trimToEmpty(this.code);
 	}
 
 	public final String getDirection() {
-		return direction;
+		return StringUtils.trimToEmpty(this.direction);
 	}
 
 	public final String getTemplateCssClass() {
-		return templateCss;
+		return StringUtils.trimToEmpty(this.templateCss);
 	}
 
 	public final String getContentPath() {
-		return this.contentPath;
+		return StringUtils.trimToEmpty(this.contentPath);
 	}
 
 	public final boolean getMotionPointEnabled() {
@@ -199,11 +203,11 @@ public class HTMLHeadInfo extends WCMUse {
 	}
 
 	public final String getLangswitchUrlPath() {
-		return this.langSwitchUrlPath;
+		return StringUtils.trimToEmpty(this.langSwitchUrlPath);
 	}
 
 	public final String getLangswitchLangCode() {
-		return this.langSwitchLangCode;
+		return StringUtils.trimToEmpty(this.langSwitchLangCode);
 	}
 
 	public final boolean getIosWebappCapable() {
@@ -214,125 +218,125 @@ public class HTMLHeadInfo extends WCMUse {
      * @return the consentRequired
      */
     public final boolean getConsentRequired() {
-    	return consentRequired;
+    	return this.consentRequired;
     }
 
     /**
      * @return the silentConsent
      */
     public final boolean getSilentConsent() {
-    	return silentConsent;
+    	return this.silentConsent;
     }
 
     /**
      * @return the displayInfoOnly
      */
     public final boolean getDisplayInfoOnly() {
-    	return displayInfoOnly;
+    	return this.displayInfoOnly;
     }
 
     /**
      * @return the adviceDisplayTime
      */
     public final String getAdviceDisplayTime() {
-    	return adviceDisplayTime;
+    	return StringUtils.trimToEmpty(this.adviceDisplayTime);
     }
 
     /**
      * @return the consentRequiredTrackingProvider
      */
     public final String getConsentRequiredTrackingProvider() {
-    	return consentRequiredTrackingProvider;
+    	return StringUtils.trimToEmpty(this.consentRequiredTrackingProvider);
     }
 
     /**
      * @return the appleIconPath
      */
     public final String getAppleIconPath() {
-    	return appleIconPath;
+    	return StringUtils.trimToEmpty(this.appleIconPath);
     }
 
     /**
      * @return the androidIconPath
      */
     public final String getAndroidIconPath() {
-    	return androidIconPath;
+    	return StringUtils.trimToEmpty(this.androidIconPath);
     }
 
     /**
      * @return the microsoftIconPath
      */
     public final String getMicrosoftIconPath() {
-    	return microsoftIconPath;
+    	return StringUtils.trimToEmpty(this.microsoftIconPath);
     }
 
     /**
      * @return the microsoftTileColor
      */
     public final String getMicrosoftTileColor() {
-    	return microsoftTileColor;
+    	return StringUtils.trimToEmpty(this.microsoftTileColor);
     }
 
     /**
      * @return the brand
      */
     public final String getBrand() {
-    	return brand;
+    	return StringUtils.trimToEmpty(this.brand);
     }
 
     /**
      * @return the carline
      */
     public final String getCarline() {
-    	return carline;
+    	return StringUtils.trimToEmpty(this.carline);
     }
 
     /**
      * @return the bodystyle
      */
     public final String getBodystyle() {
-    	return bodystyle;
+    	return StringUtils.trimToEmpty(this.bodystyle);
     }
 
     /**
      * @return the modelyear
      */
     public final String getModelyear() {
-    	return modelyear;
+    	return StringUtils.trimToEmpty(this.modelyear);
     }
 
     /**
      * @return the vehicleInfoAvailable
      */
     public final boolean getVehicleInfoAvailable() {
-    	return vehicleInfoAvailable;
+    	return this.vehicleInfoAvailable;
     }
 
     /**
      * @return the openGraphImageReference
      */
     public final String getOpenGraphImageReference() {
-    	return openGraphImageReference;
+    	return StringUtils.trimToEmpty(this.openGraphImageReference);
     }
 
     /**
      * @return the openGraphCanonicalUrl
      */
     public final String getOpenGraphCanonicalUrl() {
-    	return openGraphCanonicalUrl;
+    	return StringUtils.trimToEmpty(this.openGraphCanonicalUrl);
     }
 
     /**
      * @return the openGraphSitename
      */
     public final String getOpenGraphSitename() {
-    	return openGraphSitename;
+    	return StringUtils.trimToEmpty(this.openGraphSitename);
     }
 
     /**
      * @return the openGraphFacebookAdmins
      */
     public final String getOpenGraphFacebookAdmins() {
-    	return openGraphFacebookAdmins;
+    	return StringUtils.trimToEmpty(this.openGraphFacebookAdmins);
     }
 }

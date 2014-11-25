@@ -43,7 +43,7 @@ import com.aditya.wp.aem.services.core.JcrService;
  *
  */
 @Service(ContentMigrationService.class)
-@Component(name = "com.aditya.wp.aem.services.contentmigration.ContentMigrationService", label="GMWP Content Migration", immediate = true, metatype = true)
+@Component(name = "com.aditya.wp.aem.services.contentmigration.ContentMigrationService", label="WP Content Migration", immediate = true, metatype = true)
 public class ContentMigrationServiceImpl extends AbstractService<ContentMigrationServiceImpl> implements ContentMigrationService {
 
     @Property(value = "http://%:4503/bin/receive%")

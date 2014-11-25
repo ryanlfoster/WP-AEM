@@ -53,7 +53,7 @@ import com.aditya.wp.aem.utils.uri.UriBuilder;
  *
  */
 @Service(value = WebwrappingService.class)
-@Component(metatype = true, name = "com.aditya.wp.aem.services.webwrapping.WebwrappingService", label="GMWP Webwrapping Service", description = "%webwrappingservice.description")
+@Component(metatype = true, name = "com.aditya.wp.aem.services.webwrapping.WebwrappingService", label="WP Webwrapping Service", description = "%webwrappingservice.description")
 public class WebwrappingServiceImpl extends AbstractService<WebwrappingServiceImpl> implements WebwrappingService, EventListener {
     private static final String ENTRY_POINT_PROPERTY = "entryPointParam";
 

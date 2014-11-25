@@ -36,7 +36,7 @@ public final class CarlineUtil {
      * Enumeration for templates for which carline attributes are configured.
      * 
      * @author nperry, namics AG
-     * @since GMWP Release 2.4
+     * @since WP Release 2.4
      */
     public enum CarlineAttributeResource {
         ATTRIBUTES_COMPONENT("baseballcard_carline_attributes"), FAMILY("family"), BASE_BALL_CARD("base_ball_card"), HELPME(
@@ -69,7 +69,7 @@ public final class CarlineUtil {
      * Model class for carline code information.
      * 
      * @author chauzenberger, namics AG
-     * @since GMWP Release 2.4
+     * @since WP Release 2.4
      */
     public static final class CarlineCode {
 

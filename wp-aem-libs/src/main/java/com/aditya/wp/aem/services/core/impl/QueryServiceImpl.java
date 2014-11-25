@@ -38,7 +38,7 @@ import com.day.cq.search.result.SearchResult;
  * @since Release 1.0
  *
  */
-@Component(name = "com.aditya.wp.aem.services.core.QueryService", label = "GMWP Query Service", enabled = true, metatype = false)
+@Component(name = "com.aditya.wp.aem.services.core.QueryService", label = "WP Query Service", enabled = true, metatype = false)
 @Service(QueryService.class)
 @Properties({ @Property(name = "service.description", value = "QueryService Implementation") })
 public class QueryServiceImpl extends AbstractService<QueryServiceImpl> implements QueryService {

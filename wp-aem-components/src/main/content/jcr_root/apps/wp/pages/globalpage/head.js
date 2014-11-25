@@ -24,9 +24,10 @@ use(["/libs/wcm/foundation/components/utils/ResourceUtils.js"], function (Resour
     
     var CONST = {
         PROP_DESIGN_PATH: "cq:designPath",
-        PROP_META_TAGS: "metatags",
+        PROP_META_TAGS: "cq:tags",
         PROP_META_DESC: "metaDesc",
-        PROP_CQ_TEMPLATE: "cq:template"
+        PROP_CQ_TEMPLATE: "cq:template",
+        PROP_SLING_RESOURCETYPE: "sling:resourceType"
     };
     
     var _getKeywords = function () {
@@ -56,6 +57,13 @@ use(["/libs/wcm/foundation/components/utils/ResourceUtils.js"], function (Resour
 	        });
 	});
 
+    var templateResourceType = ResourceUtils.getContainingPage(granite.resource).then(function (pageResource) {
+    	return ResourceUtils.getResource(pageResource.path + "/jcr:content")
+	        .then(function (contentResource) {
+	        	return contentResource.properties[CONST.PROP_SLING_RESOURCETYPE];
+	        });
+	});
+
     var faviconPathPromise = designPathPromise.then(function (designPath) {
         return designPath + "/favicon.ico";
     });
@@ -76,13 +84,15 @@ use(["/libs/wcm/foundation/components/utils/ResourceUtils.js"], function (Resour
 
     var metatags = ResourceUtils.getContainingPage(granite.resource).then(function (pageResource) {
     	return ResourceUtils.getResource(pageResource.path + "/jcr:content").then(function (contentResource) {
-            return contentResource.properties["metatags"];
+            var abc = contentResource.properties[CONST.PROP_META_TAGS].join();
+            console.log(abc);
+            return abc;
         });
     });
 
     var metadesc = ResourceUtils.getContainingPage(granite.resource).then(function (pageResource) {
     	return ResourceUtils.getResource(pageResource.path + "/jcr:content").then(function (contentResource) {
-            return contentResource.properties["metadesc"];
+            return contentResource.properties[CONST.PROP_META_DESC];
         });
     });
 
@@ -117,6 +127,7 @@ use(["/libs/wcm/foundation/components/utils/ResourceUtils.js"], function (Resour
         designPath: designPathPromise,
         pagePath: pagePathPromise,
         template: templateName,
+        templateResourceType: templateResourceType,
         title: titlePromise,
         og_title: ogTitle,
         og_description: ogDescription,

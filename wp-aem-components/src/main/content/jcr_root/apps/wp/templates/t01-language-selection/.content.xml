@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="In multilingual markets this template can be used to provide entry to the different languages via teasers."
+    jcr:primaryType="cq:Template"
+    jcr:title="WP T01 Language Selection Template"
+    allowedPaths="[/content/wp/([^/]*/){2}[^/]*]"
+    ranking="{Long}1010">
+    <jcr:content
+        jcr:mixinTypes="[sling:ResourceAlias]"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wp/pages/t01-language-selection">
+        <grid_col4_c1
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wp/components/grid/grid_col4_c1"/>
+    </jcr:content>
+</jcr:root>

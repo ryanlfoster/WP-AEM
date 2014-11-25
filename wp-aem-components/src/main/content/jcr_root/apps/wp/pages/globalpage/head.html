@@ -21,12 +21,12 @@
       data-sly-use.headlibRenderer="/libs/wcm/foundation/components/page/headlibs.html"
       data-sly-use.stats="/libs/wcm/foundation/components/page/stats.js"
       data-sly-use.wcmInit="/libs/wcm/foundation/components/page/initwcm.js"
-      data-sly-use.pageModifier="com.aditya.gmwp.aem.components.global.PageModifier"
-      data-sly-use.htmlInfo="com.aditya.gmwp.aem.components.sightly.HTMLHeadInfo"
+      data-sly-use.pageModifier="com.aditya.wp.aem.components.global.PageModifier"
+      data-sly-use.htmlInfo="com.aditya.wp.aem.components.sightly.HTMLHeadInfo"
       data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
 
-	<meta data-sly-test.isAuthor="${wcmmode.edit || wcmmode.design}" data-sly-call="${clientLib.all @ categories='aem.gmwp.author'}" data-sly-unwrap></meta>
-	<meta data-sly-test="${!isAuthor}" data-sly-call="${clientLib.all @ categories='aem.gmwp.publisher'}" data-sly-unwrap></meta>
+	<meta data-sly-test.isAuthor="${wcmmode.edit || wcmmode.design}" data-sly-call="${clientLib.all @ categories='aem.wp.author'}" data-sly-unwrap></meta>
+	<meta data-sly-test="${!isAuthor}" data-sly-call="${clientLib.all @ categories='aem.wp.publisher'}" data-sly-unwrap></meta>
 
     <meta data-sly-test="${!wcmmode.disabled && wcmInit.isTouchAuthoring}" data-sly-call="${clientLib.all @ categories='cq.authoring.page'}" data-sly-unwrap></meta>
     <meta data-sly-test="${!wcmmode.disabled && !wcmInit.isTouchAuthoring}" data-sly-call="${clientLib.all @ categories='cq.wcm.edit'}" data-sly-unwrap></meta>
@@ -70,7 +70,7 @@
     </script>
 
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
-	<meta name="keywords" content="${head.keywords}" ></meta>
+	<meta name="keywords" content="${head.keywords @ join='; '}" ></meta>
 	<meta name="description" content="${head.description}" ></meta>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" ></meta>
 	<meta http-equiv="cleartype" content="on" ></meta>

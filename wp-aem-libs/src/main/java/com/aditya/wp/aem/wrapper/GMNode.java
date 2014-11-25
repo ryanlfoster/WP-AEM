@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
  * be backwards compatible.
  * 
  * @author michaelwegener, namics ag
- * @since GMWP Release 2.5
+ * @since WP Release 2.5
  */
 public final class GMNode {
 

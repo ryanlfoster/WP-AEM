@@ -29,7 +29,7 @@ import com.day.cq.commons.jcr.JcrConstants;
  */
 public final class ContentMigrationCrxUtil {
 
-	private static final String CRX_BASE_PATH = "/var/gmwp/content_migration";
+	private static final String CRX_BASE_PATH = "/var/wp/content_migration";
 	private static final String PROP_LAST_EXEC_TIME = "last_exec_time";
 	private static final String PROP_LAST_SIMULATION_TIME = "last_simulation_time";
 	private static final String PROP_LAST_EXEC_FIXED_OCCURRENCES = "last_exec_fixed_occurrences";

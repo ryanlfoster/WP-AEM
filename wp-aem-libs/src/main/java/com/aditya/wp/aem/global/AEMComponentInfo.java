@@ -14,9 +14,9 @@ package com.aditya.wp.aem.global;
  */
 public enum AEMComponentInfo {
 
-	COMPONENT_CNT_WELL_C1("gmwp/components/content/cnt_well_c1"),
-	COMPONENT_CNT_WELL_C2("gmwp/components/content/cnt_well_c2"),
-	COMPONENT_CNT_GLOSSARY_ITEM("gmwp/components/content/cnt_glossary_item_c1");
+	COMPONENT_CNT_WELL_C1("wp/components/content/cnt_well_c1"),
+	COMPONENT_CNT_WELL_C2("wp/components/content/cnt_well_c2"),
+	COMPONENT_CNT_GLOSSARY_ITEM("wp/components/content/cnt_glossary_item_c1");
 
 	private static final String COMPONENT_PATH = "/apps/";
 

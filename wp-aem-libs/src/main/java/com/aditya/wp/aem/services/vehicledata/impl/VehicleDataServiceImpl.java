@@ -93,7 +93,7 @@ import com.day.text.Text;
  *
  */
 @Service(value = VehicleDataService.class)
-@Component(metatype = true, immediate = true, name = "com.aditya.wp.aem.services.vehicledata.VehicleDataService", label="GMWP Vehicle Data Service", description = "%vehicledataservice.description")
+@Component(metatype = true, immediate = true, name = "com.aditya.wp.aem.services.vehicledata.VehicleDataService", label="WP Vehicle Data Service", description = "%vehicledataservice.description")
 public class VehicleDataServiceImpl extends AbstractService<VehicleDataServiceImpl> implements VehicleDataService {
 
     private static final String LOAD_ATTRIBUTES = "loadAttributes";

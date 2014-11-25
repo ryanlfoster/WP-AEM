@@ -32,7 +32,7 @@ import com.day.cq.commons.jcr.JcrConstants;
  * caching. Please note that all methods use synchronized code and should thus only be used rarely
  * (e.g. load data during service-activation and store it during service-deactivation). Do not use
  * the methods in this class in code that is executed in each user-request! All data will be stored
- * in separate nodes below /var/gmwp/cache.
+ * in separate nodes below /var/wp/cache.
  * 
  * @author aditya.vennelakanti
  * @since Release 1.0
@@ -40,7 +40,7 @@ import com.day.cq.commons.jcr.JcrConstants;
  */
 public final class PersistentCacheUtil {
 
-    private static final String CACHING_PATH = "var/gmwp/cache";
+    private static final String CACHING_PATH = "var/wp/cache";
 
     private static final Logger LOG = LoggerFactory.getLogger(PersistentCacheUtil.class);
 

@@ -42,7 +42,7 @@ public final class Template16LinkWriter extends DefaultLinkWriter {
      * Enumeration to hold information about the webclippings
      * 
      * @author aditya.vennelakanti, MRM Detroit
-     * @since GMWP Release 4.0
+     * @since WP Release 4.0
      */
     private enum Applications {
         BYO("gmna-byo", "byo"),

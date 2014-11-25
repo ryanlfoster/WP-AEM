@@ -38,7 +38,7 @@ import com.day.cq.wcm.api.WCMMode;
  *
  */
 @Service(value = ErrorService.class)
-@Component(name = "com.aditya.wp.aem.services.core.ErrorService", label = "GMWP ErrorService", description = "This service helps handling error pages.", metatype = true)
+@Component(name = "com.aditya.wp.aem.services.core.ErrorService", label = "WP ErrorService", description = "This service helps handling error pages.", metatype = true)
 public class ErrorServiceImpl implements ErrorService {
 	
     private static final String SERVICE_NAMESPACE = "errorservice.";

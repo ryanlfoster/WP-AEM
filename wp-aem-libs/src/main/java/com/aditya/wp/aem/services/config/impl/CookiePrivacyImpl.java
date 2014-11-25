@@ -31,7 +31,7 @@ import com.day.cq.wcm.api.Page;
  *
  */
 @Service(value = CookiePrivacyService.class)
-@Component(name = "com.aditya.wp.aem.services.config.CookiePrivacyService", label = "GMWP Cookie Privacy", metatype = true)
+@Component(name = "com.aditya.wp.aem.services.config.CookiePrivacyService", label = "WP Cookie Privacy", metatype = true)
 public class CookiePrivacyImpl implements CookiePrivacyService {
 
     @Reference

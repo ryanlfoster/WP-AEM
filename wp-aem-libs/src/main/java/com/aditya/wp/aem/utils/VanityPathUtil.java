@@ -25,7 +25,7 @@ import com.day.cq.wcm.api.Page;
  */
 public final class VanityPathUtil {
 
-    private static final String GMDS_VANITY_PATH = "gmwpVanityPath";
+    private static final String GMDS_VANITY_PATH = "wpVanityPath";
 
     /** The Constant EXTENSION_LENGTH. */
     private static final int EXTENSION_LENGTH = 4;

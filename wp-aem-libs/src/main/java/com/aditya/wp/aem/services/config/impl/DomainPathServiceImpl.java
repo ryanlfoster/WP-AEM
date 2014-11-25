@@ -11,6 +11,7 @@ import java.util.Set;
 
 import javax.jcr.query.Query;
 
+import org.apache.commons.lang.StringUtils;
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
@@ -29,7 +30,7 @@ import com.aditya.wp.aem.services.core.JcrService;
  *
  */
 @Service
-@Component(name = "com.aditya.wp.aem.services.config.DomainPathService", label="GMWP Domain Path Service", metatype = true)
+@Component(name = "com.aditya.wp.aem.services.config.DomainPathService", label="WP Domain Path Service", metatype = true)
 public class DomainPathServiceImpl extends AbstractService<DomainPathServiceImpl> implements DomainPathService {
 
 	@Reference
@@ -69,7 +70,7 @@ public class DomainPathServiceImpl extends AbstractService<DomainPathServiceImpl
         if (domain != null) {
             int numberOfChars = Integer.MIN_VALUE;
             // check if any domain from etc/admin/domainmapping_config starts with the domain
-            for (Country c : getCountries()) {
+            for (final Country c : getCountries()) {
                 // if domain starts with "www." ignore this prefix in further comparison
                 String domainNoWWW = domain;
                 if (domain.indexOf("www.") == 0) {
@@ -100,8 +101,8 @@ public class DomainPathServiceImpl extends AbstractService<DomainPathServiceImpl
     public final Country getCountryByPath(final String path) {
         Country country = null;
 
-        for (Country c : getCountries()) {
-            if (c.getContentPath().startsWith(path)) {
+        for (final Country c : getCountries()) {
+            if (StringUtils.startsWith(path, c.getContentPath())) {
                 country = c;
                 break;
             }

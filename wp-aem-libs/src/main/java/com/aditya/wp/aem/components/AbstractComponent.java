@@ -183,6 +183,7 @@ public abstract class AbstractComponent extends WCMUse {
 		getRequest().removeAttribute("abstractcomponent.mandatory");
 
 		forceEditBar();
+		init();
 		applyAspects();
 	}
 
@@ -475,7 +476,7 @@ public abstract class AbstractComponent extends WCMUse {
      * @return the value associated with the jcr property.
      */
     private <T> T getValue(final String key, final Class<T> type, final T defaultValue) {
-    	final T data = get(key, type);
+    	final T data = getProperties().get(key, type);
     	if (data == null) {
     		return defaultValue;
     	}

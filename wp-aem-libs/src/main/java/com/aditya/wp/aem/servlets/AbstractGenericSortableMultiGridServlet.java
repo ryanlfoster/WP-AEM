@@ -51,7 +51,7 @@ public abstract class AbstractGenericSortableMultiGridServlet extends SlingAllMe
      * Column model for the sortable multi grid.
      * 
      * @author chauzenberger, namics AG
-     * @since GMWP Release 2.4
+     * @since WP Release 2.4
      */
     private static final class ColumnModel {
 
@@ -86,7 +86,7 @@ public abstract class AbstractGenericSortableMultiGridServlet extends SlingAllMe
      * Row model for the sortable multi grid.
      * 
      * @author chauzenberger, namics AG
-     * @since GMWP Release 2.4
+     * @since WP Release 2.4
      */
     private static final class RowModel {
 
@@ -131,7 +131,7 @@ public abstract class AbstractGenericSortableMultiGridServlet extends SlingAllMe
      * Grid model for the sortable multi grid.
      * 
      * @author chauzenberger, namics AG
-     * @since GMWP Release 2.4
+     * @since WP Release 2.4
      */
     public static final class GridModel {
 

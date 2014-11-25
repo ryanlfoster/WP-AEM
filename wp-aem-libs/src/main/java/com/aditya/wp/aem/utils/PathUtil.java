@@ -308,7 +308,7 @@ public final class PathUtil {
      * Helper class to resolve resource from absolut URL.
      * 
      * @author smaurer, namics ag
-     * @since GMWP Release 2.6
+     * @since WP Release 2.6
      */
     private static final class WrappedHttpServletRequest implements HttpServletRequest {
 

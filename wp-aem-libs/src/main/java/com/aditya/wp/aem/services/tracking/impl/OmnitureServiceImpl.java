@@ -31,7 +31,7 @@ import com.day.cq.wcm.api.Page;
  *
  */
 @Service(OmnitureService.class)
-@Component(name="com.aditya.wp.aem.services.tracking.OmnitureService", label="GMWP Omniture Service", metatype = true)
+@Component(name="com.aditya.wp.aem.services.tracking.OmnitureService", label="WP Omniture Service", metatype = true)
 public class OmnitureServiceImpl extends AbstractService<OmnitureServiceImpl> implements OmnitureService {
 
     private static final String S_CODE_PATH_SUFFIX = "omniture_config/s_code";

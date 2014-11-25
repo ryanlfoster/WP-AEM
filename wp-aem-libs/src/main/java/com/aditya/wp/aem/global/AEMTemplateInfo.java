@@ -86,7 +86,7 @@ public enum AEMTemplateInfo {
 
 	private static final Map<String, AEMTemplateInfo> LUT = new HashMap<String, AEMTemplateInfo>();
 
-	private static final String TEMPLATE_PATH = "/apps/gmwp/templates/";
+	private static final String TEMPLATE_PATH = "/apps/wp/templates/";
 
 	static {
 		for (final AEMTemplateInfo inf : EnumSet.allOf(AEMTemplateInfo.class)) {

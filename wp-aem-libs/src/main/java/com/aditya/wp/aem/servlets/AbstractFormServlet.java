@@ -26,7 +26,7 @@ public abstract class AbstractFormServlet extends AbstractJsonServlet {
      * Container for storing options with their values and texts.
      * 
      * @author chauzenberger, namics AG
-     * @since GMWP Release 2.5
+     * @since WP Release 2.5
      */
     public static class Option {
 

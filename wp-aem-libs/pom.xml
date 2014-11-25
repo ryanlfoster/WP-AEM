@@ -103,7 +103,7 @@
 									<goal>install</goal>
 								</goals>
 								<configuration>
-									<slingUrl>${author.crx.host}:${author.crx.port}/system/console/install</slingUrl>
+									<slingUrl>http://${author.crx.host}:${author.crx.port}/system/console/install</slingUrl>
 									<user>${crx.user}</user>
 									<password>${crx.password}</password>
 								</configuration>
@@ -127,7 +127,7 @@
 									<goal>install</goal>
 								</goals>
 								<configuration>
-									<slingUrl>${publish1.crx.host}:${publish1.crx.port}/system/console/install</slingUrl>
+									<slingUrl>http://${publish1.crx.host}:${publish1.crx.port}/system/console/install</slingUrl>
 									<user>${crx.user}</user>
 									<password>${crx.password}</password>
 								</configuration>
@@ -151,7 +151,7 @@
 									<goal>install</goal>
 								</goals>
 								<configuration>
-									<slingUrl>${publish2.crx.host}:${publish2.crx.port}/system/console/install</slingUrl>
+									<slingUrl>http://${publish2.crx.host}:${publish2.crx.port}/system/console/install</slingUrl>
 									<user>${crx.user}</user>
 									<password>${crx.password}</password>
 								</configuration>

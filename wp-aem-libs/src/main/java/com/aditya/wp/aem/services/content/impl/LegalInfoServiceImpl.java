@@ -37,7 +37,7 @@ import com.day.cq.wcm.api.PageManager;
  * @since Release 1.0
  *
  */
-@Component(name = "com.aditya.wp.aem.services.content.LegalInfoService", label = "GMWP LegalInfoService", description = "Service to retrieve all disclaimers from a page tree", enabled = true, metatype = false)
+@Component(name = "com.aditya.wp.aem.services.content.LegalInfoService", label = "WP LegalInfoService", description = "Service to retrieve all disclaimers from a page tree", enabled = true, metatype = false)
 @Service(LegalInfoService.class)
 @Property(name = "service.description", value = "LegalInfoService")
 public class LegalInfoServiceImpl extends AbstractService<LegalInfoServiceImpl> implements LegalInfoService {

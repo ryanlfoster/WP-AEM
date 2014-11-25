@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Image"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="Bandwidth Check"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <imagePath
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Checks the path to all images."
+                    fieldLabel="Image Path"
+                    name="./imagePath"
+                    xtype="textfield"/>
+                <maxLoadTime
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Defines the maximal loading time."
+                    fieldLabel="Max. Loading Time"
+                    name="./loadTime"
+                    xtype="textfield"/>
+                <cookieExpireTime
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Defines the time how long cookies are valid."
+                    fieldLabel="Cookie Expire Time"
+                    name="./cookieExpireTime"
+                    xtype="textfield"/>
+            </items>
+        </tab1>
+        <tab2
+            jcr:primaryType="cq:Widget"
+            anchor="100%"
+            title="Hosts / HTTPS Configuration"
+            xtype="panel">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <httpHost
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Specifiy the hostname of the publishing system that should be used for loading pages normally via plain HTTP. Please enter protocol and host, e.g. http://www.mybrand.xy"
+                    fieldLabel="Publishing HTTP Host"
+                    name="./httpHost"
+                    xtype="textfield"/>
+                <httpsHost
+                    jcr:primaryType="cq:Widget"
+                    fieldDescription="Specifiy the hostname of the publishing system that should be used for securely loading pages via HTTPS. Please enter protocol and host, e.g. https://www.mybrand.xy"
+                    fieldLabel="Publishing HTTPS Host"
+                    name="./httpsHost"
+                    xtype="textfield"/>
+            </items>
+        </tab2>
+    </items>
+</jcr:root>

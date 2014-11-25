@@ -23,8 +23,8 @@ public enum LanguageConfigProperties implements LSLRConfigProperties {
 	/**
 	 * IMPORTANT NOTE: Be careful not to add so many enum values as to exceed the maximum bytecode
 	 * size of 2^16 bytes (~64KB). If this happens, the following cryptic error will occur when
-	 * gmwp-wcms-libs is built: Failed to execute goal org.apache.felix:maven-scr-plugin:1.7.4:scr
-	 * (generate-scr-scrdescriptor) on project gmwp-wcms-libs: Execution generate-scr-scrdescriptor
+	 * wp-wcms-libs is built: Failed to execute goal org.apache.felix:maven-scr-plugin:1.7.4:scr
+	 * (generate-scr-scrdescriptor) on project wp-wcms-libs: Execution generate-scr-scrdescriptor
 	 * of goal org.apache.felix:maven-scr-plugin:1.7.4:scr failed: 500 -> [Help 1] If needed, move
 	 * additional enum values to a new file (e.g., AccessoryCatalogConfigProperties.java).
 	 */

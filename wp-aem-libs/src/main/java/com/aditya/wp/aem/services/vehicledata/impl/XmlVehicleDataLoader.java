@@ -63,7 +63,7 @@ final class XmlVehicleDataLoader {
      * Enumeration for templates for which carline attributes are configured.
      * 
      * @author nperry, namics AG
-     * @since GMWP Release 2.4
+     * @since WP Release 2.4
      */
     public enum XmlVehicleDataNamesAndDescriptions {
         BODYSTYLE("bodystyle"),

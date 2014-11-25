@@ -36,7 +36,7 @@ public class CountryCodeInitializer extends TrackingVarInitializer {
     protected void initialize() {
 
         if (this.locale != null) {
-            String countryCode = "gmwp_" + StringUtils.lowerCase(this.locale.getCountry());
+            String countryCode = "wp_" + StringUtils.lowerCase(this.locale.getCountry());
             setVariables(countryCode, OmnitureVariables.EVAR17, OmnitureVariables.PROP17);
         }
     }

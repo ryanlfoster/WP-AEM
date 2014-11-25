@@ -25,7 +25,7 @@ public class LevelServiceWrapper {
 
     /**
      * @author skoch, namics ag
-     * @since GMWP Release 2.4
+     * @since WP Release 2.4
      */
     public enum Constants {
         LSLR, COMPANY
